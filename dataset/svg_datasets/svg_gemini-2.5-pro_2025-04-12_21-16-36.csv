@@ -1,0 +1,1115 @@
+,description,prompt,svg
+0,concentric teal circles on a deep navy background,"Generate SVG code to visually represent the following text description, while respecting the given constraints.
+<constraints>
+* **Allowed Elements:** `svg`, `path`, `circle`, `rect`, `ellipse`, `line`, `polyline`, `polygon`, `g`, `linearGradient`, `radialGradient`, `stop`, `defs`
+* **Allowed Attributes:** `viewBox`, `width`, `height`, `fill`, `stroke`, `stroke-width`, `d`, `cx`, `cy`, `r`, `x`, `y`, `rx`, `ry`, `x1`, `y1`, `x2`, `y2`, `points`, `transform`, `opacity`
+</constraints>
+
+<example>
+<description>""A red circle with a blue square inside""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <circle cx=""50"" cy=""50"" r=""40"" fill=""red""/>
+  <rect x=""30"" y=""30"" width=""40"" height=""40"" fill=""blue""/>
+</svg>
+```
+</example>
+
+
+Please ensure that the generated SVG code is well-formed, valid, and strictly adheres to these constraints. Focus on a clear and concise representation of the input description within the given limitations. Always give the complete SVG code with nothing omitted. Never use an ellipsis.
+
+<description>""concentric teal circles on a deep navy background""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+","```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <rect x=""0"" y=""0"" width=""256"" height=""256"" fill=""#000080""/>
+  <circle cx=""128"" cy=""128"" r=""100"" stroke=""teal"" stroke-width=""10"" fill=""none""/>
+  <circle cx=""128"" cy=""128"" r=""70"" stroke=""teal"" stroke-width=""10"" fill=""none""/>
+  <circle cx=""128"" cy=""128"" r=""40"" stroke=""teal"" stroke-width=""10"" fill=""none""/>
+</svg>
+```"
+1,golden spirals interwoven with thin silver lines,"Generate SVG code to visually represent the following text description, while respecting the given constraints.
+<constraints>
+* **Allowed Elements:** `svg`, `path`, `circle`, `rect`, `ellipse`, `line`, `polyline`, `polygon`, `g`, `linearGradient`, `radialGradient`, `stop`, `defs`
+* **Allowed Attributes:** `viewBox`, `width`, `height`, `fill`, `stroke`, `stroke-width`, `d`, `cx`, `cy`, `r`, `x`, `y`, `rx`, `ry`, `x1`, `y1`, `x2`, `y2`, `points`, `transform`, `opacity`
+</constraints>
+
+<example>
+<description>""A red circle with a blue square inside""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <circle cx=""50"" cy=""50"" r=""40"" fill=""red""/>
+  <rect x=""30"" y=""30"" width=""40"" height=""40"" fill=""blue""/>
+</svg>
+```
+</example>
+
+
+Please ensure that the generated SVG code is well-formed, valid, and strictly adheres to these constraints. Focus on a clear and concise representation of the input description within the given limitations. Always give the complete SVG code with nothing omitted. Never use an ellipsis.
+
+<description>""golden spirals interwoven with thin silver lines""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+","```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <!-- Define the spiral path data -->
+  <defs>
+    <path id=""spiralPath"" d=""M 128 128 A 10 10 0 0 1 138 128 A 15 15 0 0 1 138 143 A 25 25 0 0 1 113 143 A 35 35 0 0 1 113 108 A 50 50 0 0 1 163 108 A 65 65 0 0 1 163 173 A 85 85 0 0 1 78 173 A 100 100 0 0 1 78 73"" fill=""none"" stroke-width=""4""/>
+  </defs>
+
+  <!-- First golden spiral -->
+  <use href=""#spiralPath"" stroke=""#FFD700""/>
+
+  <!-- Thin silver lines (Set 1) -->
+  <line x1=""20"" y1=""20"" x2=""236"" y2=""236"" stroke=""#C0C0C0"" stroke-width=""1""/>
+  <line x1=""10"" y1=""128"" x2=""246"" y2=""128"" stroke=""#C0C0C0"" stroke-width=""1""/>
+  <line x1=""50"" y1=""10"" x2=""206"" y2=""246"" stroke=""#C0C0C0"" stroke-width=""1"" opacity=""0.7""/>
+
+  <!-- Second golden spiral (rotated) -->
+  <use href=""#spiralPath"" stroke=""#FFD700"" transform=""rotate(180 128 128)""/>
+
+  <!-- Thin silver lines (Set 2) -->
+  <line x1=""236"" y1=""20"" x2=""20"" y2=""236"" stroke=""#C0C0C0"" stroke-width=""1""/>
+  <line x1=""128"" y1=""10"" x2=""128"" y2=""246"" stroke=""#C0C0C0"" stroke-width=""1""/>
+  <line x1=""10"" y1=""206"" x2=""246"" y2=""50"" stroke=""#C0C0C0"" stroke-width=""1"" opacity=""0.7""/>
+  <line x1=""10"" y1=""80"" x2=""246"" y2=""176"" stroke=""#C0C0C0"" stroke-width=""1"" opacity=""0.7""/>
+  <line x1=""80"" y1=""10"" x2=""176"" y2=""246"" stroke=""#C0C0C0"" stroke-width=""1"" opacity=""0.7""/>
+
+</svg>
+```"
+2,a tessellation of pastel-colored hexagons,"Generate SVG code to visually represent the following text description, while respecting the given constraints.
+<constraints>
+* **Allowed Elements:** `svg`, `path`, `circle`, `rect`, `ellipse`, `line`, `polyline`, `polygon`, `g`, `linearGradient`, `radialGradient`, `stop`, `defs`
+* **Allowed Attributes:** `viewBox`, `width`, `height`, `fill`, `stroke`, `stroke-width`, `d`, `cx`, `cy`, `r`, `x`, `y`, `rx`, `ry`, `x1`, `y1`, `x2`, `y2`, `points`, `transform`, `opacity`
+</constraints>
+
+<example>
+<description>""A red circle with a blue square inside""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <circle cx=""50"" cy=""50"" r=""40"" fill=""red""/>
+  <rect x=""30"" y=""30"" width=""40"" height=""40"" fill=""blue""/>
+</svg>
+```
+</example>
+
+
+Please ensure that the generated SVG code is well-formed, valid, and strictly adheres to these constraints. Focus on a clear and concise representation of the input description within the given limitations. Always give the complete SVG code with nothing omitted. Never use an ellipsis.
+
+<description>""a tessellation of pastel-colored hexagons""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+","```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <polygon points=""-5.00,0.00 -15.00,17.32 -35.00,17.32 -45.00,0.00 -35.00,-17.32 -15.00,-17.32"" fill=""#FFD1DC""/>
+  <polygon points=""-5.00,34.64 -15.00,51.96 -35.00,51.96 -45.00,34.64 -35.00,17.32 -15.00,17.32"" fill=""#AEC6CF""/>
+  <polygon points=""-5.00,69.28 -15.00,86.60 -35.00,86.60 -45.00,69.28 -35.00,51.96 -15.00,51.96"" fill=""#C1E1C1""/>
+  <polygon points=""-5.00,103.92 -15.00,121.24 -35.00,121.24 -45.00,103.92 -35.00,86.60 -15.00,86.60"" fill=""#FDFD96""/>
+  <polygon points=""-5.00,138.56 -15.00,155.88 -35.00,155.88 -45.00,138.56 -35.00,121.24 -15.00,121.24"" fill=""#B39EB5""/>
+  <polygon points=""-5.00,173.21 -15.00,190.53 -35.00,190.53 -45.00,173.21 -35.00,155.88 -15.00,155.88"" fill=""#FFDAB9""/>
+  <polygon points=""-5.00,207.85 -15.00,225.17 -35.00,225.17 -45.00,207.85 -35.00,190.53 -15.00,190.53"" fill=""#FFD1DC""/>
+  <polygon points=""-5.00,242.49 -15.00,259.81 -35.00,259.81 -45.00,242.49 -35.00,225.17 -15.00,225.17"" fill=""#AEC6CF""/>
+  <polygon points=""-5.00,277.13 -15.00,294.45 -35.00,294.45 -45.00,277.13 -35.00,259.81 -15.00,259.81"" fill=""#C1E1C1""/>
+  <polygon points=""25.00,17.32 15.00,34.64 -5.00,34.64 -15.00,17.32 -5.00,0.00 15.00,0.00"" fill=""#FDFD96""/>
+  <polygon points=""25.00,51.96 15.00,69.28 -5.00,69.28 -15.00,51.96 -5.00,34.64 15.00,34.64"" fill=""#B39EB5""/>
+  <polygon points=""25.00,86.60 15.00,103.92 -5.00,103.92 -15.00,86.60 -5.00,69.28 15.00,69.28"" fill=""#FFDAB9""/>
+  <polygon points=""25.00,121.24 15.00,138.56 -5.00,138.56 -15.00,121.24 -5.00,103.92 15.00,103.92"" fill=""#FFD1DC""/>
+  <polygon points=""25.00,155.88 15.00,173.21 -5.00,173.21 -15.00,155.88 -5.00,138.56 15.00,138.56"" fill=""#AEC6CF""/>
+  <polygon points=""25.00,190.53 15.00,207.85 -5.00,207.85 -15.00,190.53 -5.00,173.21 15.00,173.21"" fill=""#C1E1C1""/>
+  <polygon points=""25.00,225.17 15.00,242.49 -5.00,242.49 -15.00,225.17 -5.00,207.85 15.00,207.85"" fill=""#FDFD96""/>
+  <polygon points=""25.00,259.81 15.00,277.13 -5.00,277.13 -15.00,259.81 -5.00,242.49 15.00,242.49"" fill=""#B39EB5""/>
+  <polygon points=""25.00,294.45 15.00,311.77 -5.00,311.77 -15.00,294.45 -5.00,277.13 15.00,277.13"" fill=""#FFDAB9""/>
+  <polygon points=""55.00,0.00 45.00,17.32 25.00,17.32 15.00,0.00 25.00,-17.32 45.00,-17.32"" fill=""#FFD1DC""/>
+  <polygon points=""55.00,34.64 45.00,51.96 25.00,51.96 15.00,34.64 25.00,17.32 45.00,17.32"" fill=""#AEC6CF""/>
+  <polygon points=""55.00,69.28 45.00,86.60 25.00,86.60 15.00,69.28 25.00,51.96 45.00,51.96"" fill=""#C1E1C1""/>
+  <polygon points=""55.00,103.92 45.00,121.24 25.00,121.24 15.00,103.92 25.00,86.60 45.00,86.60"" fill=""#FDFD96""/>
+  <polygon points=""55.00,138.56 45.00,155.88 25.00,155.88 15.00,138.56 25.00,121.24 45.00,121.24"" fill=""#B39EB5""/>
+  <polygon points=""55.00,173.21 45.00,190.53 25.00,190.53 15.00,173.21 25.00,155.88 45.00,155.88"" fill=""#FFDAB9""/>
+  <polygon points=""55.00,207.85 45.00,225.17 25.00,225.17 15.00,207.85 25.00,190.53 45.00,190.53"" fill=""#FFD1DC""/>
+  <polygon points=""55.00,242.49 45.00,259.81 25.00,259.81 15.00,242.49 25.00,225.17 45.00,225.17"" fill=""#AEC6CF""/>
+  <polygon points=""55.00,277.13 45.00,294.45 25.00,294.45 15.00,277.13 25.00,259.81 45.00,259.81"" fill=""#C1E1C1""/>
+  <polygon points=""85.00,17.32 75.00,34.64 55.00,34.64 45.00,17.32 55.00,0.00 75.00,0.00"" fill=""#FDFD96""/>
+  <polygon points=""85.00,51.96 75.00,69.28 55.00,69.28 45.00,51.96 55.00,34.64 75.00,34.64"" fill=""#B39EB5""/>
+  <polygon points=""85.00,86.60 75.00,103.92 55.00,103.92 45.00,86.60 55.00,69.28 75.00,69.28"" fill=""#FFDAB9""/>
+  <polygon points=""85.00,121.24 75.00,138.56 55.00,138.56 45.00,121.24 55.00,103.92 75.00,103.92"" fill=""#FFD1DC""/>
+  <polygon points=""85.00,155.88 75.00,173.21 55.00,173.21 45.00,155.88 55.00,138.56 75.00,138.56"" fill=""#AEC6CF""/>
+  <polygon points=""85.00,190.53 75.00,207.85 55.00,207.85 45.00,190.53 55.00,173.21 75.00,173.21"" fill=""#C1E1C1""/>
+  <polygon points=""85.00,225.17 75.00,242.49 55.00,242.49 45.00,225.17 55.00,207.85 75.00,207.85"" fill=""#FDFD96""/>
+  <polygon points=""85.00,259.81 75.00,277.13 55.00,277.13 45.00,259.81 55.00,242.49 75.00,242.49"" fill=""#B39EB5""/>
+  <polygon points=""85.00,294.45 75.00,311.77 55.00,311.77 45.00,294.45 55.00,277.13 75.00,277.13"" fill=""#FFDAB9""/>
+  <polygon points=""115.00,0.00 105.00,17.32 85.00,17.32 75.00,0.00 85.00,-17.32 105.00,-17.32"" fill=""#FFD1DC""/>
+  <polygon points=""115.00,34.64 105.00,51.96 85.00,51.96 75.00,34.64 85.00,17.32 105.00,17.32"" fill=""#AEC6CF""/>
+  <polygon points=""115.00,69.28 105.00,86.60 85.00,86.60 75.00,69.28 85.00,51.96 105.00,51.96"" fill=""#C1E1C1""/>
+  <polygon points=""115.00,103.92 105.00,121.24 85.00,121.24 75.00,103.92 85.00,86.60 105.00,86.60"" fill=""#FDFD96""/>
+  <polygon points=""115.00,138.56 105.00,155.88 85.00,155.88 75.00,138.56 85.00,121.24 105.00,121.24"" fill=""#B39EB5""/>
+  <polygon points=""115.00,173.21 105.00,190.53 85.00,190.53 75.00,173.21 85.00,155.88 105.00,155.88"" fill=""#FFDAB9""/>
+  <polygon points=""115.00,207.85 105.00,225.17 85.00,225.17 75.00,207.85 85.00,190.53 105.00,190.53"" fill=""#FFD1DC""/>
+  <polygon points=""115.00,242.49 105.00,259.81 85.00,259.81 75.00,242.49 85.00,225.17 105.00,225.17"" fill=""#AEC6CF""/>
+  <polygon points=""115.00,277.13 105.00,294.45 85.00,294.45 75.00,277.13 85.00,259.81 105.00,259.81"" fill=""#C1E1C1""/>
+  <polygon points=""145.00,17.32 135.00,34.64 115.00,34.64 105.00,17.32 115.00,0.00 135.00,0.00"" fill=""#FDFD96""/>
+  <polygon points=""145.00,51.96 135.00,69.28 115.00,69.28 105.00,51.96 115.00,34.64 135.00,34.64"" fill=""#B39EB5""/>
+  <polygon points=""145.00,86.60 135.00,103.92 115.00,103.92 105.00,86.60 115.00,69.28 135.00,69.28"" fill=""#FFDAB9""/>
+  <polygon points=""145.00,121.24 135.00,138.56 115.00,138.56 105.00,121.24 115.00,103.92 135.00,103.92"" fill=""#FFD1DC""/>
+  <polygon points=""145.00,155.88 135.00,173.21 115.00,173.21 105.00,155.88 115.00,138.56 135.00,138.56"" fill=""#AEC6CF""/>
+  <polygon points=""145.00,190.53 135.00,207.85 115.00,207.85 105.00,190.53 115.00,173.21 135.00,173.21"" fill=""#C1E1C1""/>
+  <polygon points=""145.00,225.17 135.00,242.49 115.00,242.49 105.00,225.17 115.00,207.85 135.00,207.85"" fill=""#FDFD96""/>
+  <polygon points=""145.00,259.81 135.00,277.13 115.00,277.13 105.00,259.81 115.00,242.49 135.00,242.49"" fill=""#B39EB5""/>
+  <polygon points=""145.00,294.45 135.00,311.77 115.00,311.77 105.00,294.45 115.00,277.13 135.00,277.13"" fill=""#FFDAB9""/>
+  <polygon points=""175.00,0.00 165.00,17.32 145.00,17.32 135.00,0.00 145.00,-17.32 165.00,-17.32"" fill=""#FFD1DC""/>
+  <polygon points=""175.00,34.64 165.00,51.96 145.00,51.96 135.00,34.64 145.00,17.32 165.00,17.32"" fill=""#AEC6CF""/>
+  <polygon points=""175.00,69.28 165.00,86.60 145.00,86.60 135.00,69.28 145.00,51.96 165.00,51.96"" fill=""#C1E1C1""/>
+  <polygon points=""175.00,103.92 165.00,121.24 145.00,121.24 135.00,103.92 145.00,86.60 165.00,86.60"" fill=""#FDFD96""/>
+  <polygon points=""175.00,138.56 165.00,155.88 145.00,155.88 135.00,138.56 145.00,121.24 165.00,121.24"" fill=""#B39EB5""/>
+  <polygon points=""175.00,173.21 165.00,190.53 145.00,190.53 135.00,173.21 145.00,155.88 165.00,155.88"" fill=""#FFDAB9""/>
+  <polygon points=""175.00,207.85 165.00,225.17 145.00,225.17 135.00,207.85 145.00,190.53 165.00,190.53"" fill=""#FFD1DC""/>
+  <polygon points=""175.00,242.49 165.00,259.81 145.00,259.81 135.00,242.49 145.00,225.17 165.00,225.17"" fill=""#AEC6CF""/>
+  <polygon points=""175.00,277.13 165.00,294.45 145.00,294.45 135.00,277.13 145.00,259.81 165.00,259.81"" fill=""#C1E1C1""/>
+  <polygon points=""205.00,17.32 195.00,34.64 175.00,34.64 165.00,17.32 175.00,0.00 195.00,0.00"" fill=""#FDFD96""/>
+  <polygon points=""205.00,51.96 195.00,69.28 175.00,69.28 165.00,51.96 175.00,34.64 195.00,34.64"" fill=""#B39EB5""/>
+  <polygon points=""205.00,86.60 195.00,103.92 175.00,103.92 165.00,86.60 175.00,69.28 195.00,69.28"" fill=""#FFDAB9""/>
+  <polygon points=""205.00,121.24 195.00,138.56 175.00,138.56 165.00,121.24 175.00,103.92 195.00,103.92"" fill=""#FFD1DC""/>
+  <polygon points=""205.00,155.88 195.00,173.21 175.00,173.21 165.00,155.88 175.00,138.56 195.00,138.56"" fill=""#AEC6CF""/>
+  <polygon points=""205.00,190.53 195.00,207.85 175.00,207.85 165.00,190.53 175.00,173.21 195.00,173.21"" fill=""#C1E1C1""/>
+  <polygon points=""205.00,225.17 195.00,242.49 175.00,242.49 165.00,225.17 175.00,207.85 195.00,207.85"" fill=""#FDFD96""/>
+  <polygon points=""205.00,259.81 195.00,277.13 175.00,277.13 165.00,259.81 175.00,242.49 195.00,242.49"" fill=""#B39EB5""/>
+  <polygon points=""205.00,294.45 195.00,311.77 175.00,311.77 165.00,294.45 175.00,277.13 195.00,277.13"" fill=""#FFDAB9""/>
+  <polygon points=""235.00,0.00 225.00,17.32 205.00,17.32 195.00,0.00 205.00,-17.32 225.00,-17.32"" fill=""#FFD1DC""/>
+  <polygon points=""235.00,34.64 225.00,51.96 205.00,51.96 195.00,34.64 205.00,17.32 225.00,17.32"" fill=""#AEC6CF""/>
+  <polygon points=""235.00,69.28 225.00,86.60 205.00,86.60 195.00,69.28 205.00,51.96 225.00,51.96"" fill=""#C1E1C1""/>
+  <polygon points=""235.00,103.92 225.00,121.24 205.00,121.24 195.00,103.92 205.00,86.60 225.00,86.60"" fill=""#FDFD96""/>
+  <polygon points=""235.00,138.56 225.00,155.88 205.00,155.88 195.00,138.56 205.00,121.24 225.00,121.24"" fill=""#B39EB5""/>
+  <polygon points=""235.00,173.21 225.00,190.53 205.00,190.53 195.00,173.21 205.00,155.88 225.00,155.88"" fill=""#FFDAB9""/>
+  <polygon points=""235.00,207.85 225.00,225.17 205.00,225.17 195.00,207.85 205.00,190.53 225.00,190.53"" fill=""#FFD1DC""/>
+  <polygon points=""235.00,242.49 225.00,259.81 205.00,259.81 195.00,242.49 205.00,225.17 225.00,225.17"" fill=""#AEC6CF""/>
+  <polygon points=""235.00,277.13 225.00,294.45 205.00,294.45 195.00,277.13 205.00,259.81 225.00,259.81"" fill=""#C1E1C1""/>
+  <polygon points=""265.00,17.32 255.00,34.64 235.00,34.64 225.00,17.32 235.00,0.00 255.00,0.00"" fill=""#FDFD96""/>
+  <polygon points=""265.00,51.96 255.00,69.28 235.00,69.28 225.00,51.96 235.00,34.64 255.00,34.64"" fill=""#B39EB5""/>
+  <polygon points=""265.00,86.60 255.00,103.92 235.00,103.92 225.00,86.60 235.00,69.28 255.00,69.28"" fill=""#FFDAB9""/>
+  <polygon points=""265.00,121.24 255.00,138.56 235.00,138.56 225.00,121.24 235.00,103.92 255.00,103.92"" fill=""#FFD1DC""/>
+  <polygon points=""265.00,155.88 255.00,173.21 235.00,173.21 225.00,155.88 235.00,138.56 255.00,138.56"" fill=""#AEC6CF""/>
+  <polygon points=""265.00,190.53 255.00,207.85 235.00,207.85 225.00,190.53 235.00,173.21 255.00,173.21"" fill=""#C1E1C1""/>
+  <polygon points=""265.00,225.17 255.00,242.49 235.00,242.49 225.00,225.17 235.00,207.85 255.00,207.85"" fill=""#FDFD96""/>
+  <polygon points=""265.00,259.81 255.00,277.13 235.00,277.13 225.00,259.81 235.00,242.49 255.00,242.49"" fill=""#B39EB5""/>
+  <polygon points=""265.00,294.45 255.00,311.77 235.00,311.77 225.00,294.45 235.00,277.13 255.00,277.13"" fill=""#FFDAB9""/>
+  <polygon points=""295.00,0.00 285.00,17.32 265.00,17.32 255.00,0.00 265.00,-17.32 285.00,-17.32"" fill=""#FFD1DC""/>
+  <polygon points=""295.00,34.64 285.00,51.96 265.00,51.96 255.00,34.64 265.00,17.32 285.00,17.32"" fill=""#AEC6CF""/>
+  <polygon points=""295.00,69.28 285.00,86.60 265.00,86.60 255.00,69.28 265.00,51.96 285.00,51.96"" fill=""#C1E1C1""/>
+  <polygon points=""295.00,103.92 285.00,121.24 265.00,121.24 255.00,103.92 265.00,86.60 285.00,86.60"" fill=""#FDFD96""/>
+  <polygon points=""295.00,138.56 285.00,155.88 265.00,155.88 255.00,138.56 265.00,121.24 285.00,121.24"" fill=""#B39EB5""/>
+  <polygon points=""295.00,173.21 285.00,190.53 265.00,190.53 255.00,173.21 265.00,155.88 285.00,155.88"" fill=""#FFDAB9""/>
+  <polygon points=""295.00,207.85 285.00,225.17 265.00,225.17 255.00,207.85 265.00,190.53 285.00,190.53"" fill=""#FFD1DC""/>
+  <polygon points=""295.00,242.49 285.00,259.81 265.00,259.81 255.00,242.49 265.00,225.17 285.00,225.17"" fill=""#AEC6CF""/>
+  <polygon points=""295.00,277.13 285.00,294.45 265.00,294.45 255.00,277.13 265.00,259.81 285.00,259.81"" fill=""#C1E1C1""/>
+</svg>
+```"
+3,stacked vibrant orange cubes casting soft shadows,"Generate SVG code to visually represent the following text description, while respecting the given constraints.
+<constraints>
+* **Allowed Elements:** `svg`, `path`, `circle`, `rect`, `ellipse`, `line`, `polyline`, `polygon`, `g`, `linearGradient`, `radialGradient`, `stop`, `defs`
+* **Allowed Attributes:** `viewBox`, `width`, `height`, `fill`, `stroke`, `stroke-width`, `d`, `cx`, `cy`, `r`, `x`, `y`, `rx`, `ry`, `x1`, `y1`, `x2`, `y2`, `points`, `transform`, `opacity`
+</constraints>
+
+<example>
+<description>""A red circle with a blue square inside""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <circle cx=""50"" cy=""50"" r=""40"" fill=""red""/>
+  <rect x=""30"" y=""30"" width=""40"" height=""40"" fill=""blue""/>
+</svg>
+```
+</example>
+
+
+Please ensure that the generated SVG code is well-formed, valid, and strictly adheres to these constraints. Focus on a clear and concise representation of the input description within the given limitations. Always give the complete SVG code with nothing omitted. Never use an ellipsis.
+
+<description>""stacked vibrant orange cubes casting soft shadows""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+","```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <defs>
+    <!-- Optional definition block, can be used for gradients if needed, empty for now -->
+  </defs>
+
+  <!-- Ground Shadow: Using an ellipse for a softer feel -->
+  <ellipse cx=""128"" cy=""240"" rx=""55"" ry=""15"" fill=""#505050"" opacity=""0.4""/>
+
+  <!-- Cube 1 (Bottom) -->
+  <g>
+    <!-- Top Face: Lightest orange -->
+    <polygon points=""128,160 168,180 128,200 88,180"" fill=""#FFD580""/>
+    <!-- Left Face: Medium orange -->
+    <polygon points=""88,180 128,200 128,230 88,210"" fill=""#FFA500""/>
+    <!-- Right Face: Darker orange -->
+    <polygon points=""168,180 128,200 128,230 168,210"" fill=""#FF8C00""/>
+  </g>
+
+  <!-- Shadow cast by Cube 2 onto Cube 1: A darker, slightly offset polygon -->
+  <polygon points=""128,162 168,182 128,202 88,182"" fill=""#000000"" opacity=""0.15""/>
+
+  <!-- Cube 2 (Middle) -->
+  <g>
+    <!-- Top Face: Lightest orange -->
+    <polygon points=""128,90 168,110 128,130 88,110"" fill=""#FFD580""/>
+    <!-- Left Face: Medium orange -->
+    <polygon points=""88,110 128,130 128,160 88,140"" fill=""#FFA500""/>
+    <!-- Right Face: Darker orange -->
+    <polygon points=""168,110 128,130 128,160 168,140"" fill=""#FF8C00""/>
+  </g>
+
+  <!-- Shadow cast by Cube 3 onto Cube 2: A darker, slightly offset polygon -->
+  <polygon points=""128,92 168,112 128,132 88,112"" fill=""#000000"" opacity=""0.15""/>
+
+  <!-- Cube 3 (Top) -->
+  <g>
+    <!-- Top Face: Lightest orange -->
+    <polygon points=""128,20 168,40 128,60 88,40"" fill=""#FFD580""/>
+    <!-- Left Face: Medium orange -->
+    <polygon points=""88,40 128,60 128,90 88,70"" fill=""#FFA500""/>
+    <!-- Right Face: Darker orange -->
+    <polygon points=""168,40 128,60 128,90 168,70"" fill=""#FF8C00""/>
+  </g>
+
+</svg>
+```"
+4,overlapping semi-transparent pink squares creating depth,"Generate SVG code to visually represent the following text description, while respecting the given constraints.
+<constraints>
+* **Allowed Elements:** `svg`, `path`, `circle`, `rect`, `ellipse`, `line`, `polyline`, `polygon`, `g`, `linearGradient`, `radialGradient`, `stop`, `defs`
+* **Allowed Attributes:** `viewBox`, `width`, `height`, `fill`, `stroke`, `stroke-width`, `d`, `cx`, `cy`, `r`, `x`, `y`, `rx`, `ry`, `x1`, `y1`, `x2`, `y2`, `points`, `transform`, `opacity`
+</constraints>
+
+<example>
+<description>""A red circle with a blue square inside""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <circle cx=""50"" cy=""50"" r=""40"" fill=""red""/>
+  <rect x=""30"" y=""30"" width=""40"" height=""40"" fill=""blue""/>
+</svg>
+```
+</example>
+
+
+Please ensure that the generated SVG code is well-formed, valid, and strictly adheres to these constraints. Focus on a clear and concise representation of the input description within the given limitations. Always give the complete SVG code with nothing omitted. Never use an ellipsis.
+
+<description>""overlapping semi-transparent pink squares creating depth""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+","```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <rect x=""60"" y=""60"" width=""100"" height=""100"" fill=""pink"" opacity=""0.5""/>
+  <rect x=""80"" y=""80"" width=""100"" height=""100"" fill=""pink"" opacity=""0.5""/>
+  <rect x=""100"" y=""100"" width=""100"" height=""100"" fill=""pink"" opacity=""0.5""/>
+</svg>
+```"
+5,emerald green triangles arranged in a fractal pattern,"Generate SVG code to visually represent the following text description, while respecting the given constraints.
+<constraints>
+* **Allowed Elements:** `svg`, `path`, `circle`, `rect`, `ellipse`, `line`, `polyline`, `polygon`, `g`, `linearGradient`, `radialGradient`, `stop`, `defs`
+* **Allowed Attributes:** `viewBox`, `width`, `height`, `fill`, `stroke`, `stroke-width`, `d`, `cx`, `cy`, `r`, `x`, `y`, `rx`, `ry`, `x1`, `y1`, `x2`, `y2`, `points`, `transform`, `opacity`
+</constraints>
+
+<example>
+<description>""A red circle with a blue square inside""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <circle cx=""50"" cy=""50"" r=""40"" fill=""red""/>
+  <rect x=""30"" y=""30"" width=""40"" height=""40"" fill=""blue""/>
+</svg>
+```
+</example>
+
+
+Please ensure that the generated SVG code is well-formed, valid, and strictly adheres to these constraints. Focus on a clear and concise representation of the input description within the given limitations. Always give the complete SVG code with nothing omitted. Never use an ellipsis.
+
+<description>""emerald green triangles arranged in a fractal pattern""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+","```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <defs>
+    <polygon id=""tri"" points=""0,0 1,0 0.5,0.866"" fill=""#2ecc71""/>
+  </defs>
+  <g fill=""#2ecc71"">
+    <!-- Level 2 Sierpinski Triangle -->
+    <!-- Top group -->
+    <polygon points=""128,20 101,74 155,74""/>
+    <polygon points=""74,128 101,74 128,128""/>
+    <polygon points=""182,128 155,74 128,128""/>
+    <!-- Bottom Left group -->
+    <polygon points=""74,128 47,182 101,182""/>
+    <polygon points=""20,236 47,182 74,236""/>
+    <polygon points=""128,236 74,236 101,182""/>
+    <!-- Bottom Right group -->
+    <polygon points=""182,128 209,182 155,182""/>
+    <polygon points=""128,236 182,236 155,182""/>
+    <polygon points=""236,236 209,182 182,236""/>
+  </g>
+</svg>
+```"
+6,a smooth gradient transitioning from ocean blue to sky blue,"Generate SVG code to visually represent the following text description, while respecting the given constraints.
+<constraints>
+* **Allowed Elements:** `svg`, `path`, `circle`, `rect`, `ellipse`, `line`, `polyline`, `polygon`, `g`, `linearGradient`, `radialGradient`, `stop`, `defs`
+* **Allowed Attributes:** `viewBox`, `width`, `height`, `fill`, `stroke`, `stroke-width`, `d`, `cx`, `cy`, `r`, `x`, `y`, `rx`, `ry`, `x1`, `y1`, `x2`, `y2`, `points`, `transform`, `opacity`
+</constraints>
+
+<example>
+<description>""A red circle with a blue square inside""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <circle cx=""50"" cy=""50"" r=""40"" fill=""red""/>
+  <rect x=""30"" y=""30"" width=""40"" height=""40"" fill=""blue""/>
+</svg>
+```
+</example>
+
+
+Please ensure that the generated SVG code is well-formed, valid, and strictly adheres to these constraints. Focus on a clear and concise representation of the input description within the given limitations. Always give the complete SVG code with nothing omitted. Never use an ellipsis.
+
+<description>""a smooth gradient transitioning from ocean blue to sky blue""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+","```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <defs>
+    <linearGradient id=""oceanToSkyGradient"" x1=""0%"" y1=""0%"" x2=""0%"" y2=""100%"">
+      <stop offset=""0%"" stop-color=""#006994""/> <!-- Ocean Blue -->
+      <stop offset=""100%"" stop-color=""#87CEEB""/> <!-- Sky Blue -->
+    </linearGradient>
+  </defs>
+  <rect x=""0"" y=""0"" width=""256"" height=""256"" fill=""url(#oceanToSkyGradient)"" />
+</svg>
+```"
+7,sharp crimson zig-zags across a bright yellow field,"Generate SVG code to visually represent the following text description, while respecting the given constraints.
+<constraints>
+* **Allowed Elements:** `svg`, `path`, `circle`, `rect`, `ellipse`, `line`, `polyline`, `polygon`, `g`, `linearGradient`, `radialGradient`, `stop`, `defs`
+* **Allowed Attributes:** `viewBox`, `width`, `height`, `fill`, `stroke`, `stroke-width`, `d`, `cx`, `cy`, `r`, `x`, `y`, `rx`, `ry`, `x1`, `y1`, `x2`, `y2`, `points`, `transform`, `opacity`
+</constraints>
+
+<example>
+<description>""A red circle with a blue square inside""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <circle cx=""50"" cy=""50"" r=""40"" fill=""red""/>
+  <rect x=""30"" y=""30"" width=""40"" height=""40"" fill=""blue""/>
+</svg>
+```
+</example>
+
+
+Please ensure that the generated SVG code is well-formed, valid, and strictly adheres to these constraints. Focus on a clear and concise representation of the input description within the given limitations. Always give the complete SVG code with nothing omitted. Never use an ellipsis.
+
+<description>""sharp crimson zig-zags across a bright yellow field""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+","```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <rect x=""0"" y=""0"" width=""256"" height=""256"" fill=""yellow""/>
+  <polyline points=""10,128 40,80 70,176 100,80 130,176 160,80 190,176 220,80 250,128"" fill=""none"" stroke=""crimson"" stroke-width=""6""/>
+</svg>
+```"
+8,interlocking rings in stark black and white contrast,"Generate SVG code to visually represent the following text description, while respecting the given constraints.
+<constraints>
+* **Allowed Elements:** `svg`, `path`, `circle`, `rect`, `ellipse`, `line`, `polyline`, `polygon`, `g`, `linearGradient`, `radialGradient`, `stop`, `defs`
+* **Allowed Attributes:** `viewBox`, `width`, `height`, `fill`, `stroke`, `stroke-width`, `d`, `cx`, `cy`, `r`, `x`, `y`, `rx`, `ry`, `x1`, `y1`, `x2`, `y2`, `points`, `transform`, `opacity`
+</constraints>
+
+<example>
+<description>""A red circle with a blue square inside""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <circle cx=""50"" cy=""50"" r=""40"" fill=""red""/>
+  <rect x=""30"" y=""30"" width=""40"" height=""40"" fill=""blue""/>
+</svg>
+```
+</example>
+
+
+Please ensure that the generated SVG code is well-formed, valid, and strictly adheres to these constraints. Focus on a clear and concise representation of the input description within the given limitations. Always give the complete SVG code with nothing omitted. Never use an ellipsis.
+
+<description>""interlocking rings in stark black and white contrast""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+","```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <!-- Black Ring 1 (drawn first) -->
+  <circle cx=""100"" cy=""128"" r=""60"" stroke=""black"" stroke-width=""10"" fill=""none""/>
+  <!-- Black Ring 2 (drawn second, overlaps ring 1) -->
+  <circle cx=""160"" cy=""128"" r=""60"" stroke=""black"" stroke-width=""10"" fill=""none""/>
+  <!-- White Arc Mask (covers part of Ring 2 to make it appear underneath Ring 1 at the bottom intersection) -->
+  <!-- This arc follows the path of Ring 1 near the bottom intersection -->
+  <path d=""M 138.6,173.9 A 60,60 0 0,1 120.5,184.4"" stroke=""white"" stroke-width=""12"" fill=""none""/>
+</svg>
+```"
+9,"floating spheres with an iridescent, pearly surface","Generate SVG code to visually represent the following text description, while respecting the given constraints.
+<constraints>
+* **Allowed Elements:** `svg`, `path`, `circle`, `rect`, `ellipse`, `line`, `polyline`, `polygon`, `g`, `linearGradient`, `radialGradient`, `stop`, `defs`
+* **Allowed Attributes:** `viewBox`, `width`, `height`, `fill`, `stroke`, `stroke-width`, `d`, `cx`, `cy`, `r`, `x`, `y`, `rx`, `ry`, `x1`, `y1`, `x2`, `y2`, `points`, `transform`, `opacity`
+</constraints>
+
+<example>
+<description>""A red circle with a blue square inside""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <circle cx=""50"" cy=""50"" r=""40"" fill=""red""/>
+  <rect x=""30"" y=""30"" width=""40"" height=""40"" fill=""blue""/>
+</svg>
+```
+</example>
+
+
+Please ensure that the generated SVG code is well-formed, valid, and strictly adheres to these constraints. Focus on a clear and concise representation of the input description within the given limitations. Always give the complete SVG code with nothing omitted. Never use an ellipsis.
+
+<description>""floating spheres with an iridescent, pearly surface""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+","```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <defs>
+    <radialGradient id=""iridescentPearl"" cx=""0.5"" cy=""0.5"" r=""0.6"" fx=""0.3"" fy=""0.3"">
+      <stop offset=""0%"" stop-color=""#FFFFFF"" stop-opacity=""0.9""/>
+      <stop offset=""30%"" stop-color=""#F0FFFF"" stop-opacity=""0.8""/> <!-- Azure -->
+      <stop offset=""60%"" stop-color=""#FFF0F5"" stop-opacity=""0.7""/> <!-- LavenderBlush -->
+      <stop offset=""85%"" stop-color=""#E6E6FA"" stop-opacity=""0.75""/> <!-- Lavender -->
+      <stop offset=""100%"" stop-color=""#ADD8E6"" stop-opacity=""0.8""/> <!-- LightBlue -->
+    </radialGradient>
+  </defs>
+
+  <!-- Floating Sphere 1 -->
+  <circle cx=""75"" cy=""90"" r=""55"" fill=""url(#iridescentPearl)"" opacity=""0.95""/>
+
+  <!-- Floating Sphere 2 -->
+  <circle cx=""180"" cy=""70"" r=""40"" fill=""url(#iridescentPearl)"" opacity=""0.9""/>
+
+  <!-- Floating Sphere 3 -->
+  <circle cx=""150"" cy=""180"" r=""65"" fill=""url(#iridescentPearl)"" opacity=""1""/>
+
+  <!-- Floating Sphere 4 (smaller, partially hidden) -->
+  <circle cx=""210"" cy=""160"" r=""30"" fill=""url(#iridescentPearl)"" opacity=""0.85""/>
+
+  <!-- Floating Sphere 5 (tiny) -->
+  <circle cx=""40"" cy=""170"" r=""20"" fill=""url(#iridescentPearl)"" opacity=""0.8""/>
+
+</svg>
+```"
+10,a precise grid composed of charcoal gray diamonds,"Generate SVG code to visually represent the following text description, while respecting the given constraints.
+<constraints>
+* **Allowed Elements:** `svg`, `path`, `circle`, `rect`, `ellipse`, `line`, `polyline`, `polygon`, `g`, `linearGradient`, `radialGradient`, `stop`, `defs`
+* **Allowed Attributes:** `viewBox`, `width`, `height`, `fill`, `stroke`, `stroke-width`, `d`, `cx`, `cy`, `r`, `x`, `y`, `rx`, `ry`, `x1`, `y1`, `x2`, `y2`, `points`, `transform`, `opacity`
+</constraints>
+
+<example>
+<description>""A red circle with a blue square inside""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <circle cx=""50"" cy=""50"" r=""40"" fill=""red""/>
+  <rect x=""30"" y=""30"" width=""40"" height=""40"" fill=""blue""/>
+</svg>
+```
+</example>
+
+
+Please ensure that the generated SVG code is well-formed, valid, and strictly adheres to these constraints. Focus on a clear and concise representation of the input description within the given limitations. Always give the complete SVG code with nothing omitted. Never use an ellipsis.
+
+<description>""a precise grid composed of charcoal gray diamonds""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+","```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <g fill=""#36454F"">
+    <polygon points=""0,16 16,0 32,16 16,32""/>
+    <polygon points=""32,16 48,0 64,16 48,32""/>
+    <polygon points=""64,16 80,0 96,16 80,32""/>
+    <polygon points=""96,16 112,0 128,16 112,32""/>
+    <polygon points=""128,16 144,0 160,16 144,32""/>
+    <polygon points=""160,16 176,0 192,16 176,32""/>
+    <polygon points=""192,16 208,0 224,16 208,32""/>
+    <polygon points=""224,16 240,0 256,16 240,32""/>
+    <polygon points=""0,48 16,32 32,48 16,64""/>
+    <polygon points=""32,48 48,32 64,48 48,64""/>
+    <polygon points=""64,48 80,32 96,48 80,64""/>
+    <polygon points=""96,48 112,32 128,48 112,64""/>
+    <polygon points=""128,48 144,32 160,48 144,64""/>
+    <polygon points=""160,48 176,32 192,48 176,64""/>
+    <polygon points=""192,48 208,32 224,48 208,64""/>
+    <polygon points=""224,48 240,32 256,48 240,64""/>
+    <polygon points=""0,80 16,64 32,80 16,96""/>
+    <polygon points=""32,80 48,64 64,80 48,96""/>
+    <polygon points=""64,80 80,64 96,80 80,96""/>
+    <polygon points=""96,80 112,64 128,80 112,96""/>
+    <polygon points=""128,80 144,64 160,80 144,96""/>
+    <polygon points=""160,80 176,64 192,80 176,96""/>
+    <polygon points=""192,80 208,64 224,80 208,96""/>
+    <polygon points=""224,80 240,64 256,80 240,96""/>
+    <polygon points=""0,112 16,96 32,112 16,128""/>
+    <polygon points=""32,112 48,96 64,112 48,128""/>
+    <polygon points=""64,112 80,96 96,112 80,128""/>
+    <polygon points=""96,112 112,96 128,112 112,128""/>
+    <polygon points=""128,112 144,96 160,112 144,128""/>
+    <polygon points=""160,112 176,96 192,112 176,128""/>
+    <polygon points=""192,112 208,96 224,112 208,128""/>
+    <polygon points=""224,112 240,96 256,112 240,128""/>
+    <polygon points=""0,144 16,128 32,144 16,160""/>
+    <polygon points=""32,144 48,128 64,144 48,160""/>
+    <polygon points=""64,144 80,128 96,144 80,160""/>
+    <polygon points=""96,144 112,128 128,144 112,160""/>
+    <polygon points=""128,144 144,128 160,144 144,160""/>
+    <polygon points=""160,144 176,128 192,144 176,160""/>
+    <polygon points=""192,144 208,128 224,144 208,160""/>
+    <polygon points=""224,144 240,128 256,144 240,160""/>
+    <polygon points=""0,176 16,160 32,176 16,192""/>
+    <polygon points=""32,176 48,160 64,176 48,192""/>
+    <polygon points=""64,176 80,160 96,176 80,192""/>
+    <polygon points=""96,176 112,160 128,176 112,192""/>
+    <polygon points=""128,176 144,160 160,176 144,192""/>
+    <polygon points=""160,176 176,160 192,176 176,192""/>
+    <polygon points=""192,176 208,160 224,176 208,192""/>
+    <polygon points=""224,176 240,160 256,176 240,192""/>
+    <polygon points=""0,208 16,192 32,208 16,224""/>
+    <polygon points=""32,208 48,192 64,208 48,224""/>
+    <polygon points=""64,208 80,192 96,208 80,224""/>
+    <polygon points=""96,208 112,192 128,208 112,224""/>
+    <polygon points=""128,208 144,192 160,208 144,224""/>
+    <polygon points=""160,208 176,192 192,208 176,224""/>
+    <polygon points=""192,208 208,192 224,208 208,224""/>
+    <polygon points=""224,208 240,192 256,208 240,224""/>
+    <polygon points=""0,240 16,224 32,240 16,256""/>
+    <polygon points=""32,240 48,224 64,240 48,256""/>
+    <polygon points=""64,240 80,224 96,240 80,256""/>
+    <polygon points=""96,240 112,224 128,240 112,256""/>
+    <polygon points=""128,240 144,224 160,240 144,256""/>
+    <polygon points=""160,240 176,224 192,240 176,256""/>
+    <polygon points=""192,240 208,224 224,240 208,256""/>
+    <polygon points=""224,240 240,224 256,240 240,256""/>
+  </g>
+</svg>
+```"
+11,a copper wireframe representation of an icosahedron,"Generate SVG code to visually represent the following text description, while respecting the given constraints.
+<constraints>
+* **Allowed Elements:** `svg`, `path`, `circle`, `rect`, `ellipse`, `line`, `polyline`, `polygon`, `g`, `linearGradient`, `radialGradient`, `stop`, `defs`
+* **Allowed Attributes:** `viewBox`, `width`, `height`, `fill`, `stroke`, `stroke-width`, `d`, `cx`, `cy`, `r`, `x`, `y`, `rx`, `ry`, `x1`, `y1`, `x2`, `y2`, `points`, `transform`, `opacity`
+</constraints>
+
+<example>
+<description>""A red circle with a blue square inside""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <circle cx=""50"" cy=""50"" r=""40"" fill=""red""/>
+  <rect x=""30"" y=""30"" width=""40"" height=""40"" fill=""blue""/>
+</svg>
+```
+</example>
+
+
+Please ensure that the generated SVG code is well-formed, valid, and strictly adheres to these constraints. Focus on a clear and concise representation of the input description within the given limitations. Always give the complete SVG code with nothing omitted. Never use an ellipsis.
+
+<description>""a copper wireframe representation of an icosahedron""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+","```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <path d=""M 128.0 21.9 L 213.1 87.6 M 128.0 21.9 L 174.5 99.5 M 128.0 21.9 L 71.5 99.5 M 128.0 21.9 L 42.9 87.6 M 128.0 21.9 L 128.0 74.5 M 213.1 87.6 L 213.1 168.0 M 213.1 87.6 L 174.5 156.1 M 213.1 87.6 L 174.5 99.5 M 174.5 99.5 L 174.5 156.1 M 174.5 99.5 L 128.0 181.1 M 174.5 99.5 L 71.5 99.5 M 71.5 99.5 L 128.0 181.1 M 71.5 99.5 L 71.5 156.1 M 71.5 99.5 L 42.9 87.6 M 42.9 87.6 L 71.5 156.1 M 42.9 87.6 L 42.9 168.0 M 42.9 87.6 L 128.0 74.5 M 128.0 74.5 L 42.9 168.0 M 128.0 74.5 L 213.1 168.0 M 128.0 74.5 L 213.1 87.6 M 213.1 168.0 L 128.0 234.1 M 213.1 168.0 L 174.5 156.1 M 174.5 156.1 L 128.0 234.1 M 174.5 156.1 L 128.0 181.1 M 128.0 181.1 L 128.0 234.1 M 128.0 181.1 L 71.5 156.1 M 71.5 156.1 L 128.0 234.1 M 71.5 156.1 L 42.9 168.0 M 42.9 168.0 L 128.0 234.1 M 42.9 168.0 L 213.1 168.0""
+    fill=""none"" stroke=""#B87333"" stroke-width=""2""/>
+</svg>
+```"
+12,deep crimson stripes gradually fading into rich violet,"Generate SVG code to visually represent the following text description, while respecting the given constraints.
+<constraints>
+* **Allowed Elements:** `svg`, `path`, `circle`, `rect`, `ellipse`, `line`, `polyline`, `polygon`, `g`, `linearGradient`, `radialGradient`, `stop`, `defs`
+* **Allowed Attributes:** `viewBox`, `width`, `height`, `fill`, `stroke`, `stroke-width`, `d`, `cx`, `cy`, `r`, `x`, `y`, `rx`, `ry`, `x1`, `y1`, `x2`, `y2`, `points`, `transform`, `opacity`
+</constraints>
+
+<example>
+<description>""A red circle with a blue square inside""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <circle cx=""50"" cy=""50"" r=""40"" fill=""red""/>
+  <rect x=""30"" y=""30"" width=""40"" height=""40"" fill=""blue""/>
+</svg>
+```
+</example>
+
+
+Please ensure that the generated SVG code is well-formed, valid, and strictly adheres to these constraints. Focus on a clear and concise representation of the input description within the given limitations. Always give the complete SVG code with nothing omitted. Never use an ellipsis.
+
+<description>""deep crimson stripes gradually fading into rich violet""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+","```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <defs>
+    <linearGradient id=""fadeGradient"" x1=""0%"" y1=""0%"" x2=""100%"" y2=""0%"">
+      <stop offset=""0%"" stop-color=""#8B0000""/> <!-- Deep Crimson -->
+      <stop offset=""100%"" stop-color=""#4B0082""/> <!-- Rich Violet -->
+    </linearGradient>
+  </defs>
+
+  <!-- Create stripes using rectangles filled with the gradient -->
+  <rect x=""0"" y=""0"" width=""32"" height=""256"" fill=""url(#fadeGradient)"" />
+  <rect x=""64"" y=""0"" width=""32"" height=""256"" fill=""url(#fadeGradient)"" />
+  <rect x=""128"" y=""0"" width=""32"" height=""256"" fill=""url(#fadeGradient)"" />
+  <rect x=""192"" y=""0"" width=""32"" height=""256"" fill=""url(#fadeGradient)"" />
+  <rect x=""224"" y=""0"" width=""32"" height=""256"" fill=""url(#fadeGradient)"" />
+</svg>
+```"
+13,scattered amber-colored shards on a textured slate gray surface,"Generate SVG code to visually represent the following text description, while respecting the given constraints.
+<constraints>
+* **Allowed Elements:** `svg`, `path`, `circle`, `rect`, `ellipse`, `line`, `polyline`, `polygon`, `g`, `linearGradient`, `radialGradient`, `stop`, `defs`
+* **Allowed Attributes:** `viewBox`, `width`, `height`, `fill`, `stroke`, `stroke-width`, `d`, `cx`, `cy`, `r`, `x`, `y`, `rx`, `ry`, `x1`, `y1`, `x2`, `y2`, `points`, `transform`, `opacity`
+</constraints>
+
+<example>
+<description>""A red circle with a blue square inside""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <circle cx=""50"" cy=""50"" r=""40"" fill=""red""/>
+  <rect x=""30"" y=""30"" width=""40"" height=""40"" fill=""blue""/>
+</svg>
+```
+</example>
+
+
+Please ensure that the generated SVG code is well-formed, valid, and strictly adheres to these constraints. Focus on a clear and concise representation of the input description within the given limitations. Always give the complete SVG code with nothing omitted. Never use an ellipsis.
+
+<description>""scattered amber-colored shards on a textured slate gray surface""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+","```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <!-- Background: Slate Gray Surface (Texture simulated by solid color due to constraints) -->
+  <rect x=""0"" y=""0"" width=""256"" height=""256"" fill=""#708090""/>
+
+  <!-- Scattered Amber-Colored Shards -->
+  <g fill=""#FFBF00""> <!-- Group for common fill color -->
+    <!-- Shard 1 -->
+    <polygon points=""0,0 25,5 18,22 3,17"" transform=""translate(45, 50) rotate(25)""/>
+    <!-- Shard 2 -->
+    <polygon points=""0,0 18,8 23,4 6,24"" transform=""translate(110, 75) rotate(-35)""/>
+    <!-- Shard 3 -->
+    <polygon points=""0,0 12,-4 22,12 7,18"" transform=""translate(190, 60) rotate(50)""/>
+    <!-- Shard 4 -->
+    <polygon points=""0,0 20,10 14,25 4,20"" transform=""translate(60, 180) rotate(110)""/>
+    <!-- Shard 5 -->
+    <polygon points=""0,0 24,14 17,33 9,22"" transform=""translate(140, 200) rotate(-15)""/>
+    <!-- Shard 6 -->
+    <polygon points=""0,0 15,4 20,18 5,12"" transform=""translate(210, 140) rotate(80)""/>
+    <!-- Shard 7 -->
+    <polygon points=""0,0 28,10 12,30 6,20"" transform=""translate(25, 115) rotate(-60)""/>
+    <!-- Shard 8 -->
+    <polygon points=""0,0 18,16 7,25 2,14"" transform=""translate(100, 25) rotate(95)""/>
+    <!-- Shard 9 -->
+    <polygon points=""0,0 21,3 25,20 8,17"" transform=""translate(170, 165) rotate(190)""/>
+    <!-- Shard 10 -->
+    <polygon points=""0,0 16,9 10,21 4,13"" transform=""translate(220, 210) rotate(-75)""/>
+    <!-- Shard 11 -->
+    <polygon points=""0,0 22,8 15,26 5,19"" transform=""translate(150, 110) rotate(150)""/>
+     <!-- Shard 12 -->
+    <polygon points=""0,0 19,6 11,23 2,16"" transform=""translate(80, 140) rotate(-100)""/>
+  </g>
+</svg>
+```"
+14,flowing lime green curves intersecting bold dark blue lines,"Generate SVG code to visually represent the following text description, while respecting the given constraints.
+<constraints>
+* **Allowed Elements:** `svg`, `path`, `circle`, `rect`, `ellipse`, `line`, `polyline`, `polygon`, `g`, `linearGradient`, `radialGradient`, `stop`, `defs`
+* **Allowed Attributes:** `viewBox`, `width`, `height`, `fill`, `stroke`, `stroke-width`, `d`, `cx`, `cy`, `r`, `x`, `y`, `rx`, `ry`, `x1`, `y1`, `x2`, `y2`, `points`, `transform`, `opacity`
+</constraints>
+
+<example>
+<description>""A red circle with a blue square inside""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <circle cx=""50"" cy=""50"" r=""40"" fill=""red""/>
+  <rect x=""30"" y=""30"" width=""40"" height=""40"" fill=""blue""/>
+</svg>
+```
+</example>
+
+
+Please ensure that the generated SVG code is well-formed, valid, and strictly adheres to these constraints. Focus on a clear and concise representation of the input description within the given limitations. Always give the complete SVG code with nothing omitted. Never use an ellipsis.
+
+<description>""flowing lime green curves intersecting bold dark blue lines""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+","```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <defs>
+    <!-- Define lime green and dark blue colors for clarity if needed, but direct use is fine -->
+  </defs>
+
+  <!-- Flowing Lime Green Curves -->
+  <g stroke=""lime"" stroke-width=""4"" fill=""none"">
+    <path d=""M 20 180 C 80 50, 180 300, 236 80"" />
+    <path d=""M 30 40 C 200 80, 50 200, 220 220"" />
+    <path d=""M 150 20 C 10 150, 250 150, 100 240"" />
+  </g>
+
+  <!-- Bold Dark Blue Lines -->
+  <g stroke=""darkblue"" stroke-width=""8"" fill=""none"">
+    <line x1=""10"" y1=""128"" x2=""246"" y2=""128"" />
+    <line x1=""128"" y1=""10"" x2=""128"" y2=""246"" />
+    <line x1=""40"" y1=""40"" x2=""216"" y2=""216"" />
+    <line x1=""40"" y1=""216"" x2=""216"" y2=""40"" />
+  </g>
+</svg>
+```"
+15,a secluded desert oasis reflecting a bright midday sun,"Generate SVG code to visually represent the following text description, while respecting the given constraints.
+<constraints>
+* **Allowed Elements:** `svg`, `path`, `circle`, `rect`, `ellipse`, `line`, `polyline`, `polygon`, `g`, `linearGradient`, `radialGradient`, `stop`, `defs`
+* **Allowed Attributes:** `viewBox`, `width`, `height`, `fill`, `stroke`, `stroke-width`, `d`, `cx`, `cy`, `r`, `x`, `y`, `rx`, `ry`, `x1`, `y1`, `x2`, `y2`, `points`, `transform`, `opacity`
+</constraints>
+
+<example>
+<description>""A red circle with a blue square inside""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <circle cx=""50"" cy=""50"" r=""40"" fill=""red""/>
+  <rect x=""30"" y=""30"" width=""40"" height=""40"" fill=""blue""/>
+</svg>
+```
+</example>
+
+
+Please ensure that the generated SVG code is well-formed, valid, and strictly adheres to these constraints. Focus on a clear and concise representation of the input description within the given limitations. Always give the complete SVG code with nothing omitted. Never use an ellipsis.
+
+<description>""a secluded desert oasis reflecting a bright midday sun""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+","```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <defs>
+    <linearGradient id=""skyGradient"" x1=""0%"" y1=""0%"" x2=""0%"" y2=""100%"">
+      <stop offset=""0%"" stop-color=""#87CEEB""/> <!-- Light Sky Blue -->
+      <stop offset=""100%"" stop-color=""#B0E0E6""/> <!-- Powder Blue towards horizon -->
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect x=""0"" y=""0"" width=""256"" height=""160"" fill=""url(#skyGradient)""/>
+
+  <!-- Sand Dunes -->
+  <path d=""M 0 256 Q 90 170, 170 190 T 256 170 V 256 Z"" fill=""#F4A460""/> <!-- Sandy Brown foreground dune -->
+  <path d=""M 0 256 V 160 Q 120 110, 190 170 T 256 150 V 256 Z"" fill=""#DEB887"" opacity=""0.9""/> <!-- Burlywood background dune -->
+
+  <!-- Oasis Water -->
+  <ellipse cx=""128"" cy=""200"" rx=""70"" ry=""30"" fill=""#4682B4""/> <!-- Steel Blue water -->
+
+  <!-- Sun Reflection on Water -->
+  <ellipse cx=""140"" cy=""195"" rx=""12"" ry=""6"" fill=""white"" opacity=""0.8""/>
+
+  <!-- Palm Trees -->
+  <!-- Palm Tree 1 (Left) -->
+  <g transform=""translate(75, 165) scale(0.8)"">
+    <line x1=""0"" y1=""40"" x2=""0"" y2=""0"" stroke=""#A0522D"" stroke-width=""5""/> <!-- Sienna trunk -->
+    <polyline points=""-20,-5 -10,-15 0,0"" fill=""#228B22"" stroke=""#006400"" stroke-width=""1""/> <!-- Forest Green leaves -->
+    <polyline points=""-5,-20 5,-20 0,0"" fill=""#228B22"" stroke=""#006400"" stroke-width=""1""/>
+    <polyline points=""20,-5 10,-15 0,0"" fill=""#228B22"" stroke=""#006400"" stroke-width=""1""/>
+    <polyline points=""-15,-10 -5,-20 0,0"" fill=""#228B22"" stroke=""#006400"" stroke-width=""1"" transform=""rotate(-15, 0, 0)""/>
+    <polyline points=""15,-10 5,-20 0,0"" fill=""#228B22"" stroke=""#006400"" stroke-width=""1"" transform=""rotate(15, 0, 0)""/>
+  </g>
+  <!-- Palm Tree 2 (Right) -->
+   <g transform=""translate(185, 160) scale(0.9)"">
+    <line x1=""0"" y1=""45"" x2=""0"" y2=""0"" stroke=""#8B4513"" stroke-width=""6""/> <!-- Saddle Brown trunk -->
+    <polyline points=""-25,-6 -12,-18 0,0"" fill=""#2E8B57"" stroke=""#006400"" stroke-width=""1""/> <!-- Sea Green leaves -->
+    <polyline points=""-6,-24 6,-24 0,0"" fill=""#2E8B57"" stroke=""#006400"" stroke-width=""1""/>
+    <polyline points=""25,-6 12,-18 0,0"" fill=""#2E8B57"" stroke=""#006400"" stroke-width=""1""/>
+    <polyline points=""-18,-12 -6,-22 0,0"" fill=""#2E8B57"" stroke=""#006400"" stroke-width=""1"" transform=""rotate(-15, 0, 0)""/>
+    <polyline points=""18,-12 6,-22 0,0"" fill=""#2E8B57"" stroke=""#006400"" stroke-width=""1"" transform=""rotate(15, 0, 0)""/>
+  </g>
+
+</svg>
+```"
+16,"expansive arctic tundra under a pale, vast blue sky","Generate SVG code to visually represent the following text description, while respecting the given constraints.
+<constraints>
+* **Allowed Elements:** `svg`, `path`, `circle`, `rect`, `ellipse`, `line`, `polyline`, `polygon`, `g`, `linearGradient`, `radialGradient`, `stop`, `defs`
+* **Allowed Attributes:** `viewBox`, `width`, `height`, `fill`, `stroke`, `stroke-width`, `d`, `cx`, `cy`, `r`, `x`, `y`, `rx`, `ry`, `x1`, `y1`, `x2`, `y2`, `points`, `transform`, `opacity`
+</constraints>
+
+<example>
+<description>""A red circle with a blue square inside""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <circle cx=""50"" cy=""50"" r=""40"" fill=""red""/>
+  <rect x=""30"" y=""30"" width=""40"" height=""40"" fill=""blue""/>
+</svg>
+```
+</example>
+
+
+Please ensure that the generated SVG code is well-formed, valid, and strictly adheres to these constraints. Focus on a clear and concise representation of the input description within the given limitations. Always give the complete SVG code with nothing omitted. Never use an ellipsis.
+
+<description>""expansive arctic tundra under a pale, vast blue sky""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+","```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <defs>
+    <linearGradient id=""skyGradient"" x1=""0%"" y1=""0%"" x2=""0%"" y2=""100%"">
+      <stop offset=""0%"" style=""stop-color:#B0E0E6; stop-opacity:1"" />
+      <stop offset=""100%"" style=""stop-color:#C0E8F0; stop-opacity:1"" />
+    </linearGradient>
+  </defs>
+  <!-- Vast Pale Blue Sky -->
+  <rect x=""0"" y=""0"" width=""256"" height=""256"" fill=""url(#skyGradient)""/>
+  <!-- Expansive Arctic Tundra -->
+  <path d=""M 0 175 C 40 165, 80 185, 128 180 S 200 170, 256 178 L 256 256 L 0 256 Z"" fill=""#F5F5F5""/>
+</svg>
+```"
+17,rolling hills ablaze with fiery autumn foliage colors,"Generate SVG code to visually represent the following text description, while respecting the given constraints.
+<constraints>
+* **Allowed Elements:** `svg`, `path`, `circle`, `rect`, `ellipse`, `line`, `polyline`, `polygon`, `g`, `linearGradient`, `radialGradient`, `stop`, `defs`
+* **Allowed Attributes:** `viewBox`, `width`, `height`, `fill`, `stroke`, `stroke-width`, `d`, `cx`, `cy`, `r`, `x`, `y`, `rx`, `ry`, `x1`, `y1`, `x2`, `y2`, `points`, `transform`, `opacity`
+</constraints>
+
+<example>
+<description>""A red circle with a blue square inside""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <circle cx=""50"" cy=""50"" r=""40"" fill=""red""/>
+  <rect x=""30"" y=""30"" width=""40"" height=""40"" fill=""blue""/>
+</svg>
+```
+</example>
+
+
+Please ensure that the generated SVG code is well-formed, valid, and strictly adheres to these constraints. Focus on a clear and concise representation of the input description within the given limitations. Always give the complete SVG code with nothing omitted. Never use an ellipsis.
+
+<description>""rolling hills ablaze with fiery autumn foliage colors""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+","```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <defs>
+    <linearGradient id=""autumnGradient"" x1=""0%"" y1=""0%"" x2=""0%"" y2=""100%"">
+      <stop offset=""0%"" stop-color=""#D95B43""/> <!-- Terracotta Red -->
+      <stop offset=""40%"" stop-color=""#E08E45""/> <!-- Burnt Orange -->
+      <stop offset=""80%"" stop-color=""#F5BE51""/> <!-- Golden Yellow -->
+      <stop offset=""100%"" stop-color=""#A0522D""/> <!-- Sienna Brown (base) -->
+    </linearGradient>
+    <linearGradient id=""skyGradient"" x1=""0%"" y1=""0%"" x2=""0%"" y2=""100%"">
+      <stop offset=""0%"" stop-color=""#87CEEB""/> <!-- Sky Blue -->
+      <stop offset=""100%"" stop-color=""#ADD8E6""/> <!-- Lighter Sky Blue -->
+    </linearGradient>
+  </defs>
+
+  <!-- Sky Background -->
+  <rect x=""0"" y=""0"" width=""256"" height=""256"" fill=""url(#skyGradient)"" />
+
+  <!-- Back Hill -->
+  <path d=""M 0 256 L 0 120 Q 70 80 150 110 T 256 90 L 256 256 Z"" fill=""url(#autumnGradient)"" opacity=""0.7""/>
+
+  <!-- Middle Hill -->
+  <path d=""M 0 256 L 0 160 Q 90 110 180 145 T 256 130 L 256 256 Z"" fill=""url(#autumnGradient)"" opacity=""0.85""/>
+
+  <!-- Front Hill -->
+  <path d=""M 0 256 L 0 190 Q 60 150 128 180 T 256 160 L 256 256 Z"" fill=""url(#autumnGradient)"" />
+
+</svg>
+```"
+18,a sprawling cityscape silhouette during a vibrant sunrise,"Generate SVG code to visually represent the following text description, while respecting the given constraints.
+<constraints>
+* **Allowed Elements:** `svg`, `path`, `circle`, `rect`, `ellipse`, `line`, `polyline`, `polygon`, `g`, `linearGradient`, `radialGradient`, `stop`, `defs`
+* **Allowed Attributes:** `viewBox`, `width`, `height`, `fill`, `stroke`, `stroke-width`, `d`, `cx`, `cy`, `r`, `x`, `y`, `rx`, `ry`, `x1`, `y1`, `x2`, `y2`, `points`, `transform`, `opacity`
+</constraints>
+
+<example>
+<description>""A red circle with a blue square inside""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <circle cx=""50"" cy=""50"" r=""40"" fill=""red""/>
+  <rect x=""30"" y=""30"" width=""40"" height=""40"" fill=""blue""/>
+</svg>
+```
+</example>
+
+
+Please ensure that the generated SVG code is well-formed, valid, and strictly adheres to these constraints. Focus on a clear and concise representation of the input description within the given limitations. Always give the complete SVG code with nothing omitted. Never use an ellipsis.
+
+<description>""a sprawling cityscape silhouette during a vibrant sunrise""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+","```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <defs>
+    <linearGradient id=""sunriseGradient"" x1=""0%"" y1=""0%"" x2=""0%"" y2=""100%"">
+      <stop offset=""0%"" stop-color=""#483D8B""/> <!-- DarkSlateBlue -->
+      <stop offset=""40%"" stop-color=""#FF69B4""/> <!-- HotPink -->
+      <stop offset=""75%"" stop-color=""#FFA500""/> <!-- Orange -->
+      <stop offset=""100%"" stop-color=""#FFFFE0""/> <!-- LightYellow -->
+    </linearGradient>
+  </defs>
+
+  <!-- Background Gradient -->
+  <rect x=""0"" y=""0"" width=""256"" height=""256"" fill=""url(#sunriseGradient)""/>
+
+  <!-- Cityscape Silhouette -->
+  <g fill=""black"" opacity=""0.9"">
+    <rect x=""0"" y=""140"" width=""40"" height=""116""/>
+    <rect x=""35"" y=""170"" width=""50"" height=""86""/>
+    <rect x=""80"" y=""190"" width=""30"" height=""66""/>
+    <rect x=""105"" y=""120"" width=""35"" height=""136""/>
+    <rect x=""135"" y=""160"" width=""60"" height=""96""/>
+    <rect x=""190"" y=""110"" width=""25"" height=""146""/>
+    <rect x=""210"" y=""180"" width=""46"" height=""76""/>
+    <rect x=""230"" y=""150"" width=""26"" height=""106""/>
+  </g>
+</svg>
+```"
+19,"an underwater coral reef teeming with bright, tropical fish","Generate SVG code to visually represent the following text description, while respecting the given constraints.
+<constraints>
+* **Allowed Elements:** `svg`, `path`, `circle`, `rect`, `ellipse`, `line`, `polyline`, `polygon`, `g`, `linearGradient`, `radialGradient`, `stop`, `defs`
+* **Allowed Attributes:** `viewBox`, `width`, `height`, `fill`, `stroke`, `stroke-width`, `d`, `cx`, `cy`, `r`, `x`, `y`, `rx`, `ry`, `x1`, `y1`, `x2`, `y2`, `points`, `transform`, `opacity`
+</constraints>
+
+<example>
+<description>""A red circle with a blue square inside""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <circle cx=""50"" cy=""50"" r=""40"" fill=""red""/>
+  <rect x=""30"" y=""30"" width=""40"" height=""40"" fill=""blue""/>
+</svg>
+```
+</example>
+
+
+Please ensure that the generated SVG code is well-formed, valid, and strictly adheres to these constraints. Focus on a clear and concise representation of the input description within the given limitations. Always give the complete SVG code with nothing omitted. Never use an ellipsis.
+
+<description>""an underwater coral reef teeming with bright, tropical fish""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+","```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <defs>
+    <linearGradient id=""waterGradient"" x1=""0%"" y1=""0%"" x2=""0%"" y2=""100%"">
+      <stop offset=""0%"" stop-color=""#87CEEB"" stop-opacity=""1"" />
+      <stop offset=""100%"" stop-color=""#1E90FF"" stop-opacity=""1"" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect x=""0"" y=""0"" width=""256"" height=""256"" fill=""url(#waterGradient)"" />
+
+  <!-- Seabed -->
+  <path d=""M 0 256 Q 40 230, 80 240 T 160 235 T 256 250 V 256 H 0 Z"" fill=""#F4A460"" />
+
+  <!-- Coral -->
+  <!-- Branching Coral (Red/Pink) -->
+  <path d=""M 50 245 C 40 215, 60 195, 70 185 C 80 195, 100 215, 90 245 Z"" fill=""#FF6B6B"" />
+  <path d=""M 60 205 C 55 185, 75 175, 70 185"" fill=""none"" stroke=""#FF4747"" stroke-width=""8""/>
+  <path d=""M 80 210 C 85 190, 65 180, 70 185"" fill=""none"" stroke=""#FF4747"" stroke-width=""6""/>
+
+  <!-- Brain Coral (Green) -->
+  <ellipse cx=""125"" cy=""235"" rx=""30"" ry=""20"" fill=""#98FB98"" />
+  <path d=""M 105 235 Q 118 225, 125 235 T 145 235"" fill=""none"" stroke=""#55AF55"" stroke-width=""2""/>
+  <path d=""M 108 240 Q 120 230, 128 240 T 148 240"" fill=""none"" stroke=""#55AF55"" stroke-width=""2""/>
+  <path d=""M 112 230 Q 122 220, 130 230 T 140 230"" fill=""none"" stroke=""#55AF55"" stroke-width=""2""/>
+
+
+  <!-- Fan Coral (Purple) -->
+   <path d=""M 180 245 Q 160 180, 210 180 Q 240 200, 220 245 Z"" fill=""#C39BD3"" opacity=""0.8""/>
+   <path d=""M 185 240 L 185 200"" stroke=""#8E44AD"" stroke-width=""3"" />
+   <path d=""M 195 235 L 195 190"" stroke=""#8E44AD"" stroke-width=""3"" />
+   <path d=""M 205 240 L 205 195"" stroke=""#8E44AD"" stroke-width=""3"" />
+   <path d=""M 215 235 L 215 205"" stroke=""#8E44AD"" stroke-width=""3"" />
+
+   <!-- Tube Coral (Orange) -->
+   <rect x=""20"" y=""210"" width=""10"" height=""35"" fill=""#FFA500"" rx=""3"" ry=""3""/>
+   <rect x=""35"" y=""220"" width=""8"" height=""25"" fill=""#FF8C00"" rx=""3"" ry=""3""/>
+   <circle cx=""25"" cy=""210"" r=""5"" fill=""#FF8C00""/>
+   <circle cx=""39"" cy=""220"" r=""4"" fill=""#FFA500""/>
+
+  <!-- Fish -->
+  <!-- Fish 1 (Yellow) -->
+  <g transform=""translate(90, 70) rotate(-15)"">
+    <ellipse cx=""0"" cy=""0"" rx=""15"" ry=""8"" fill=""#FFEB3B""/>
+    <polygon points=""-12,0 -20,-5 -20,5"" fill=""#FFC107"" />
+    <circle cx=""8"" cy=""-2"" r=""2"" fill=""#212121""/>
+  </g>
+
+  <!-- Fish 2 (Blue/Orange Stripes) -->
+  <g transform=""translate(160, 130) rotate(25)"">
+    <ellipse cx=""0"" cy=""0"" rx=""18"" ry=""9"" fill=""#03A9F4""/>
+    <path d=""M 5 -7 Q 10 -10, 15 -7 L 15 7 Q 10 10, 5 7 Z"" fill=""#FF9800"" />
+    <path d=""M -5 -8 Q 0 -11, 5 -8 L 5 8 Q 0 11, -5 8 Z"" fill=""#FF9800"" />
+    <polygon points=""-15,0 -25,-6 -25,6"" fill=""#FF5722"" />
+    <circle cx=""10"" cy=""-2"" r=""2"" fill=""#212121""/>
+  </g>
+
+  <!-- Fish 3 (Small Red) -->
+  <g transform=""translate(50, 160) rotate(10)"">
+    <ellipse cx=""0"" cy=""0"" rx=""10"" ry=""5"" fill=""#F44336""/>
+    <polygon points=""-8,0 -14,-4 -14,4"" fill=""#D32F2F"" />
+    <circle cx=""5"" cy=""-1"" r=""1.5"" fill=""#212121""/>
+  </g>
+
+    <!-- Fish 4 (Greenish Angelfish Shape) -->
+  <g transform=""translate(210, 50) rotate(-30)"">
+     <path d=""M 0 0 C -15 -15, -15 15, 0 0 L 15 12 L 15 -12 Z"" fill=""#4CAF50""/>
+     <path d=""M 0 0 L -15 0 L -10 5 L -15 10"" stroke=""#388E3C"" stroke-width=""1.5"" fill=""none""/>
+     <circle cx=""8"" cy=""-2"" r=""2"" fill=""#212121""/>
+  </g>
+
+  <!-- Bubbles -->
+  <circle cx=""40"" cy=""190"" r=""3"" fill=""white"" opacity=""0.6""/>
+  <circle cx=""45"" cy=""150"" r=""2.5"" fill=""white"" opacity=""0.5""/>
+  <circle cx=""42"" cy=""110"" r=""2"" fill=""white"" opacity=""0.4""/>
+  <circle cx=""190"" cy=""210"" r=""4"" fill=""white"" opacity=""0.6""/>
+  <circle cx=""200"" cy=""160"" r=""3.5"" fill=""white"" opacity=""0.5""/>
+  <circle cx=""205"" cy=""120"" r=""3"" fill=""white"" opacity=""0.4""/>
+
+</svg>
+```"
+20,misty mountain peaks piercing through a thick layer of clouds,"Generate SVG code to visually represent the following text description, while respecting the given constraints.
+<constraints>
+* **Allowed Elements:** `svg`, `path`, `circle`, `rect`, `ellipse`, `line`, `polyline`, `polygon`, `g`, `linearGradient`, `radialGradient`, `stop`, `defs`
+* **Allowed Attributes:** `viewBox`, `width`, `height`, `fill`, `stroke`, `stroke-width`, `d`, `cx`, `cy`, `r`, `x`, `y`, `rx`, `ry`, `x1`, `y1`, `x2`, `y2`, `points`, `transform`, `opacity`
+</constraints>
+
+<example>
+<description>""A red circle with a blue square inside""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <circle cx=""50"" cy=""50"" r=""40"" fill=""red""/>
+  <rect x=""30"" y=""30"" width=""40"" height=""40"" fill=""blue""/>
+</svg>
+```
+</example>
+
+
+Please ensure that the generated SVG code is well-formed, valid, and strictly adheres to these constraints. Focus on a clear and concise representation of the input description within the given limitations. Always give the complete SVG code with nothing omitted. Never use an ellipsis.
+
+<description>""misty mountain peaks piercing through a thick layer of clouds""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+","```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <defs>
+    <linearGradient id=""skyGradient"" x1=""0%"" y1=""0%"" x2=""0%"" y2=""100%"">
+      <stop offset=""0%"" stop-color=""#B0C4DE"" stop-opacity=""1"" /> <!-- Light Steel Blue -->
+      <stop offset=""60%"" stop-color=""#D8E2EC"" stop-opacity=""1"" />
+      <stop offset=""100%"" stop-color=""#F0F8FF"" stop-opacity=""1"" /> <!-- Alice Blue -->
+    </linearGradient>
+  </defs>
+
+  <!-- Background Sky -->
+  <rect x=""0"" y=""0"" width=""256"" height=""256"" fill=""url(#skyGradient)"" />
+
+  <!-- Mountain Peaks (drawn before clouds) -->
+  <!-- Furthest Peak (lighter grey) -->
+  <polygon points=""90,195 130,110 170,195"" fill=""#78909C"" />
+  <!-- Middle Peak (medium grey) -->
+  <polygon points=""20,205 75,90 130,205"" fill=""#546E7A"" />
+  <!-- Closest Peak (darker grey) -->
+  <polygon points=""145,200 195,70 245,200"" fill=""#455A64"" />
+
+  <!-- Cloud Layer (drawn over mountain bases) -->
+  <!-- Use overlapping ellipses with varying opacity and shades of white/grey -->
+  <ellipse cx=""128"" cy=""215"" rx=""140"" ry=""60"" fill=""#FFFFFF"" opacity=""0.9"" />
+  <ellipse cx=""70"" cy=""200"" rx=""90"" ry=""45"" fill=""#F5F5F5"" opacity=""0.95"" />
+  <ellipse cx=""190"" cy=""205"" rx=""100"" ry=""50"" fill=""#FAFAFA"" opacity=""0.92"" />
+  <ellipse cx=""40"" cy=""225"" rx=""70"" ry=""35"" fill=""#FFFFFF"" opacity=""0.85"" />
+  <ellipse cx=""220"" cy=""220"" rx=""80"" ry=""40"" fill=""#F5F5F5"" opacity=""0.88"" />
+
+  <!-- Top Mist/Cloud wisps obscuring mountain bases -->
+  <ellipse cx=""75"" cy=""190"" rx=""60"" ry=""30"" fill=""white"" opacity=""0.7"" />
+  <ellipse cx=""195"" cy=""185"" rx=""70"" ry=""35"" fill=""#F8F8F8"" opacity=""0.75"" />
+  <ellipse cx=""130"" cy=""195"" rx=""50"" ry=""25"" fill=""white"" opacity=""0.65"" />
+
+</svg>
+```"
