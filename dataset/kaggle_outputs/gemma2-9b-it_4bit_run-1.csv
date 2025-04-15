@@ -1,0 +1,451 @@
+,description,prompt,svg,processed_svg
+0,a purple forest at dusk,"Generate SVG code to visually represent the following text description, while respecting the given constraints.
+<constraints>
+* **Allowed Elements:** `svg`, `path`, `circle`, `rect`, `ellipse`, `line`, `polyline`, `polygon`, `g`, `linearGradient`, `radialGradient`, `stop`, `defs`
+* **Allowed Attributes:** `viewBox`, `width`, `height`, `fill`, `stroke`, `stroke-width`, `d`, `cx`, `cy`, `r`, `x`, `y`, `rx`, `ry`, `x1`, `y1`, `x2`, `y2`, `points`, `transform`, `opacity`
+</constraints>
+
+<example>
+<description>""A red circle with a blue square inside""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <circle cx=""50"" cy=""50"" r=""40"" fill=""red""/>
+  <rect x=""30"" y=""30"" width=""40"" height=""40"" fill=""blue""/>
+</svg>
+```
+</example>
+
+
+Please ensure that the generated SVG code is well-formed, valid, and strictly adheres to these constraints. Focus on a clear and concise representation of the input description within the given limitations. Always give the complete SVG code with nothing omitted. Never use an ellipsis.
+
+<description>""a purple forest at dusk""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+","<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+<defs>
+<linearGradient id=""grad1"" x1=""0%"" y1=""0%"" x2=""100%"" y2=""100%"">
+  <stop offset=""0%"" stop-color=""#404040""/>
+  <stop offset=""100%"" stop-color=""#202020""/>
+</linearGradient>
+</defs>
+<rect width=""256"" height=""256"" fill=""url(#grad1)""/>
+<path d=""M30 150 L150 100 L200 150 Z"" fill=""purple"" stroke=""purple""/>
+</svg>","<svg viewBox=""0 0 256 256"" width=""256"" height=""256""><defs><linearGradient id=""grad1"" x1=""0%"" y1=""0%"" x2=""100%"" y2=""100%""><stop offset=""0%"" stop-color=""#404040""/><stop offset=""100%"" stop-color=""#202020""/></linearGradient></defs><rect width=""256"" height=""256"" fill=""url(#grad1)""/><path d=""M30 150 L150 100 L200 150 Z"" fill=""purple"" stroke=""purple""/></svg>"
+1,gray wool coat with a faux fur collar,"Generate SVG code to visually represent the following text description, while respecting the given constraints.
+<constraints>
+* **Allowed Elements:** `svg`, `path`, `circle`, `rect`, `ellipse`, `line`, `polyline`, `polygon`, `g`, `linearGradient`, `radialGradient`, `stop`, `defs`
+* **Allowed Attributes:** `viewBox`, `width`, `height`, `fill`, `stroke`, `stroke-width`, `d`, `cx`, `cy`, `r`, `x`, `y`, `rx`, `ry`, `x1`, `y1`, `x2`, `y2`, `points`, `transform`, `opacity`
+</constraints>
+
+<example>
+<description>""A red circle with a blue square inside""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <circle cx=""50"" cy=""50"" r=""40"" fill=""red""/>
+  <rect x=""30"" y=""30"" width=""40"" height=""40"" fill=""blue""/>
+</svg>
+```
+</example>
+
+
+Please ensure that the generated SVG code is well-formed, valid, and strictly adheres to these constraints. Focus on a clear and concise representation of the input description within the given limitations. Always give the complete SVG code with nothing omitted. Never use an ellipsis.
+
+<description>""gray wool coat with a faux fur collar""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+","<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <g fill=""gray"">
+    <rect x=""30"" y=""50"" width=""196"" height=""206"" rx=""10""/>
+    <rect x=""60"" y=""50"" width=""136"" height=""86"" rx=""5""/>
+  </g>
+</svg>","<svg viewBox=""0 0 256 256"" width=""256"" height=""256""><g fill=""gray""><rect x=""30"" y=""50"" width=""196"" height=""206"" rx=""10""/><rect x=""60"" y=""50"" width=""136"" height=""86"" rx=""5""/></g></svg>"
+2,a lighthouse overlooking the ocean,"Generate SVG code to visually represent the following text description, while respecting the given constraints.
+<constraints>
+* **Allowed Elements:** `svg`, `path`, `circle`, `rect`, `ellipse`, `line`, `polyline`, `polygon`, `g`, `linearGradient`, `radialGradient`, `stop`, `defs`
+* **Allowed Attributes:** `viewBox`, `width`, `height`, `fill`, `stroke`, `stroke-width`, `d`, `cx`, `cy`, `r`, `x`, `y`, `rx`, `ry`, `x1`, `y1`, `x2`, `y2`, `points`, `transform`, `opacity`
+</constraints>
+
+<example>
+<description>""A red circle with a blue square inside""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <circle cx=""50"" cy=""50"" r=""40"" fill=""red""/>
+  <rect x=""30"" y=""30"" width=""40"" height=""40"" fill=""blue""/>
+</svg>
+```
+</example>
+
+
+Please ensure that the generated SVG code is well-formed, valid, and strictly adheres to these constraints. Focus on a clear and concise representation of the input description within the given limitations. Always give the complete SVG code with nothing omitted. Never use an ellipsis.
+
+<description>""a lighthouse overlooking the ocean""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+","<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <rect x=""10"" y=""150"" width=""60"" height=""90"" fill=""grey""/>
+  <circle cx=""30"" cy=""60"" r=""6"" fill=""red""/>
+  <circle cx=""90"" cy=""150"" r=""50"" fill=""grey""/>
+  <rect x=""110 "" y=""100"" width=""30"" height=""40"" fill=""black""/>
+  <path d=""M130 130 Q 160 80 190 130"" stroke=""black"" stroke-width=""3"" fill=""none""/>
+  <rect x=""10"" y=""10"" width=""256"" height=""140"" fill=""blue""/>
+</svg>","<svg viewBox=""0 0 256 256"" width=""256"" height=""256""><rect x=""10"" y=""150"" width=""60"" height=""90"" fill=""grey""/><circle cx=""30"" cy=""60"" r=""6"" fill=""red""/><circle cx=""90"" cy=""150"" r=""50"" fill=""grey""/><rect x=""110 "" y=""100"" width=""30"" height=""40"" fill=""black""/><path d=""M130 130 Q 160 80 190 130"" stroke=""black"" stroke-width=""3"" fill=""none""/><rect x=""10"" y=""10"" width=""256"" height=""140"" fill=""blue""/></svg>"
+3,burgundy corduroy pants with patch pockets and silver buttons,"Generate SVG code to visually represent the following text description, while respecting the given constraints.
+<constraints>
+* **Allowed Elements:** `svg`, `path`, `circle`, `rect`, `ellipse`, `line`, `polyline`, `polygon`, `g`, `linearGradient`, `radialGradient`, `stop`, `defs`
+* **Allowed Attributes:** `viewBox`, `width`, `height`, `fill`, `stroke`, `stroke-width`, `d`, `cx`, `cy`, `r`, `x`, `y`, `rx`, `ry`, `x1`, `y1`, `x2`, `y2`, `points`, `transform`, `opacity`
+</constraints>
+
+<example>
+<description>""A red circle with a blue square inside""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <circle cx=""50"" cy=""50"" r=""40"" fill=""red""/>
+  <rect x=""30"" y=""30"" width=""40"" height=""40"" fill=""blue""/>
+</svg>
+```
+</example>
+
+
+Please ensure that the generated SVG code is well-formed, valid, and strictly adheres to these constraints. Focus on a clear and concise representation of the input description within the given limitations. Always give the complete SVG code with nothing omitted. Never use an ellipsis.
+
+<description>""burgundy corduroy pants with patch pockets and silver buttons""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+","<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <rect x=""0"" y=""0"" width=""256"" height=""256"" fill=""brown"" stroke=""rgb(165, 42, 42)"" stroke-width=""2""/>
+  <rect x=""50"" y=""50"" width=""40"" height=""40"" fill=""brown"" stroke=""rgb(165, 42, 42)"" stroke-width=""2""/>
+  <rect x=""150"" y=""50"" width=""40"" height=""40"" fill=""brown"" stroke=""rgb(165, 42, 42)"" stroke-width=""2""/>
+  <circle cx=""80"" cy=""40"" r=""5"" fill=""silver""/>
+  <circle cx=""180"" cy=""40"" r=""5"" fill=""silver""/> 
+</svg>","<svg viewBox=""0 0 256 256"" width=""256"" height=""256""><rect x=""0"" y=""0"" width=""256"" height=""256"" fill=""brown"" stroke=""rgb(165, 42, 42)"" stroke-width=""2""/><rect x=""50"" y=""50"" width=""40"" height=""40"" fill=""brown"" stroke=""rgb(165, 42, 42)"" stroke-width=""2""/><rect x=""150"" y=""50"" width=""40"" height=""40"" fill=""brown"" stroke=""rgb(165, 42, 42)"" stroke-width=""2""/><circle cx=""80"" cy=""40"" r=""5"" fill=""silver""/><circle cx=""180"" cy=""40"" r=""5"" fill=""silver""/></svg>"
+4,orange corduroy overalls,"Generate SVG code to visually represent the following text description, while respecting the given constraints.
+<constraints>
+* **Allowed Elements:** `svg`, `path`, `circle`, `rect`, `ellipse`, `line`, `polyline`, `polygon`, `g`, `linearGradient`, `radialGradient`, `stop`, `defs`
+* **Allowed Attributes:** `viewBox`, `width`, `height`, `fill`, `stroke`, `stroke-width`, `d`, `cx`, `cy`, `r`, `x`, `y`, `rx`, `ry`, `x1`, `y1`, `x2`, `y2`, `points`, `transform`, `opacity`
+</constraints>
+
+<example>
+<description>""A red circle with a blue square inside""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <circle cx=""50"" cy=""50"" r=""40"" fill=""red""/>
+  <rect x=""30"" y=""30"" width=""40"" height=""40"" fill=""blue""/>
+</svg>
+```
+</example>
+
+
+Please ensure that the generated SVG code is well-formed, valid, and strictly adheres to these constraints. Focus on a clear and concise representation of the input description within the given limitations. Always give the complete SVG code with nothing omitted. Never use an ellipsis.
+
+<description>""orange corduroy overalls""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+","<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <rect x=""20"" y=""50"" width=""216"" height=""156"" rx=""10"" ry=""10"" fill=""#FFA500""/>
+  <path d=""M50 204 line Join 100 154 line Join 150 204"" stroke=""#000"" stroke-width=""4""/>
+  <path d=""M100 204 line Join 150 154 line Join 200 204"" stroke=""#000"" stroke-width=""4""/>
+  
+</svg>","<svg viewBox=""0 0 256 256"" width=""256"" height=""256""><rect x=""20"" y=""50"" width=""216"" height=""156"" rx=""10"" ry=""10"" fill=""#FFA500""/></svg>"
+5,a purple silk scarf with tassel trim,"Generate SVG code to visually represent the following text description, while respecting the given constraints.
+<constraints>
+* **Allowed Elements:** `svg`, `path`, `circle`, `rect`, `ellipse`, `line`, `polyline`, `polygon`, `g`, `linearGradient`, `radialGradient`, `stop`, `defs`
+* **Allowed Attributes:** `viewBox`, `width`, `height`, `fill`, `stroke`, `stroke-width`, `d`, `cx`, `cy`, `r`, `x`, `y`, `rx`, `ry`, `x1`, `y1`, `x2`, `y2`, `points`, `transform`, `opacity`
+</constraints>
+
+<example>
+<description>""A red circle with a blue square inside""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <circle cx=""50"" cy=""50"" r=""40"" fill=""red""/>
+  <rect x=""30"" y=""30"" width=""40"" height=""40"" fill=""blue""/>
+</svg>
+```
+</example>
+
+
+Please ensure that the generated SVG code is well-formed, valid, and strictly adheres to these constraints. Focus on a clear and concise representation of the input description within the given limitations. Always give the complete SVG code with nothing omitted. Never use an ellipsis.
+
+<description>""a purple silk scarf with tassel trim""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+","<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <path d=""M 40 210 Q 60 190 80 190 L 80 160 Q 100 140 120 140"" stroke=""purple"" stroke-width=""2"" fill=""none""/>
+  <path d=""M 120 140 Q 140 120 160 120 L 160 90 Q 180 70 200 70"" stroke=""purple"" stroke-width=""2"" fill=""none""/>
+  <circle cx=""160"" cy=""90"" r=""10"" fill=""purple""/>
+  <circle cx=""200"" cy=""90"" r=""10"" fill=""purple""/> 
+</svg>","<svg viewBox=""0 0 256 256"" width=""256"" height=""256""><path d=""M 40 210 Q 60 190 80 190 L 80 160 Q 100 140 120 140"" stroke=""purple"" stroke-width=""2"" fill=""none""/><path d=""M 120 140 Q 140 120 160 120 L 160 90 Q 180 70 200 70"" stroke=""purple"" stroke-width=""2"" fill=""none""/><circle cx=""160"" cy=""90"" r=""10"" fill=""purple""/><circle cx=""200"" cy=""90"" r=""10"" fill=""purple""/></svg>"
+6,a green lagoon under a cloudy sky,"Generate SVG code to visually represent the following text description, while respecting the given constraints.
+<constraints>
+* **Allowed Elements:** `svg`, `path`, `circle`, `rect`, `ellipse`, `line`, `polyline`, `polygon`, `g`, `linearGradient`, `radialGradient`, `stop`, `defs`
+* **Allowed Attributes:** `viewBox`, `width`, `height`, `fill`, `stroke`, `stroke-width`, `d`, `cx`, `cy`, `r`, `x`, `y`, `rx`, `ry`, `x1`, `y1`, `x2`, `y2`, `points`, `transform`, `opacity`
+</constraints>
+
+<example>
+<description>""A red circle with a blue square inside""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <circle cx=""50"" cy=""50"" r=""40"" fill=""red""/>
+  <rect x=""30"" y=""30"" width=""40"" height=""40"" fill=""blue""/>
+</svg>
+```
+</example>
+
+
+Please ensure that the generated SVG code is well-formed, valid, and strictly adheres to these constraints. Focus on a clear and concise representation of the input description within the given limitations. Always give the complete SVG code with nothing omitted. Never use an ellipsis.
+
+<description>""a green lagoon under a cloudy sky""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+","<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <rect x=""0"" y=""0"" width=""256"" height=""128"" fill=""lightblue""/>
+  <circle cx=""128"" cy=""64"" r=""16"" fill=""white""/>
+  <circle cx=""80"" cy=""64"" r=""16"" fill=""white""/>
+  <circle cx=""176"" cy=""64"" r=""16"" fill=""white""/>
+  <rect x=""0"" y=""128"" width=""256"" height=""128"" fill=""green""/>
+</svg>","<svg viewBox=""0 0 256 256"" width=""256"" height=""256""><rect x=""0"" y=""0"" width=""256"" height=""128"" fill=""lightblue""/><circle cx=""128"" cy=""64"" r=""16"" fill=""white""/><circle cx=""80"" cy=""64"" r=""16"" fill=""white""/><circle cx=""176"" cy=""64"" r=""16"" fill=""white""/><rect x=""0"" y=""128"" width=""256"" height=""128"" fill=""green""/></svg>"
+7,crimson rectangles forming a chaotic grid,"Generate SVG code to visually represent the following text description, while respecting the given constraints.
+<constraints>
+* **Allowed Elements:** `svg`, `path`, `circle`, `rect`, `ellipse`, `line`, `polyline`, `polygon`, `g`, `linearGradient`, `radialGradient`, `stop`, `defs`
+* **Allowed Attributes:** `viewBox`, `width`, `height`, `fill`, `stroke`, `stroke-width`, `d`, `cx`, `cy`, `r`, `x`, `y`, `rx`, `ry`, `x1`, `y1`, `x2`, `y2`, `points`, `transform`, `opacity`
+</constraints>
+
+<example>
+<description>""A red circle with a blue square inside""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <circle cx=""50"" cy=""50"" r=""40"" fill=""red""/>
+  <rect x=""30"" y=""30"" width=""40"" height=""40"" fill=""blue""/>
+</svg>
+```
+</example>
+
+
+Please ensure that the generated SVG code is well-formed, valid, and strictly adheres to these constraints. Focus on a clear and concise representation of the input description within the given limitations. Always give the complete SVG code with nothing omitted. Never use an ellipsis.
+
+<description>""crimson rectangles forming a chaotic grid""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+","<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <circle cx=""50"" cy=""50"" r=""40"" fill=""red""/>
+  <rect x=""30"" y=""30"" width=""40"" height=""40"" fill=""blue""/>
+</svg>","<svg viewBox=""0 0 256 256"" width=""256"" height=""256""><circle cx=""50"" cy=""50"" r=""40"" fill=""red""/><rect x=""30"" y=""30"" width=""40"" height=""40"" fill=""blue""/></svg>"
+8,purple pyramids spiraling around a bronze cone,"Generate SVG code to visually represent the following text description, while respecting the given constraints.
+<constraints>
+* **Allowed Elements:** `svg`, `path`, `circle`, `rect`, `ellipse`, `line`, `polyline`, `polygon`, `g`, `linearGradient`, `radialGradient`, `stop`, `defs`
+* **Allowed Attributes:** `viewBox`, `width`, `height`, `fill`, `stroke`, `stroke-width`, `d`, `cx`, `cy`, `r`, `x`, `y`, `rx`, `ry`, `x1`, `y1`, `x2`, `y2`, `points`, `transform`, `opacity`
+</constraints>
+
+<example>
+<description>""A red circle with a blue square inside""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <circle cx=""50"" cy=""50"" r=""40"" fill=""red""/>
+  <rect x=""30"" y=""30"" width=""40"" height=""40"" fill=""blue""/>
+</svg>
+```
+</example>
+
+
+Please ensure that the generated SVG code is well-formed, valid, and strictly adheres to these constraints. Focus on a clear and concise representation of the input description within the given limitations. Always give the complete SVG code with nothing omitted. Never use an ellipsis.
+
+<description>""purple pyramids spiraling around a bronze cone""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+","<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+<defs>
+  <linearGradient id=""grad1"" x1=""0%"" y1=""0%"" x2=""100%"" y2=""100%"">
+    <stop offset=""0%""  stop-color=""#800080"" /> <!-- Purple -->
+    <stop offset=""100%"" stop-color=""#000080"" /> <!-- Blue -->
+  </linearGradient>
+</defs>
+<path d=""M128,128 L128-16 A120,120 0 1 1 240,128 Z"" fill=""url(#grad1)"" />--><circle cx=""128"" cy=""128"" r=""80"" stroke=""brown"" stroke-width=""4"" fill=""golden""/>
+</svg>","<svg viewBox=""0 0 256 256"" width=""256"" height=""256""><defs><linearGradient id=""grad1"" x1=""0%"" y1=""0%"" x2=""100%"" y2=""100%""><stop offset=""0%"" stop-color=""#800080""/><stop offset=""100%"" stop-color=""#000080""/></linearGradient></defs><circle cx=""128"" cy=""128"" r=""80"" stroke=""brown"" stroke-width=""4"" fill=""golden""/></svg>"
+9,magenta trapezoids layered on a transluscent silver sheet,"Generate SVG code to visually represent the following text description, while respecting the given constraints.
+<constraints>
+* **Allowed Elements:** `svg`, `path`, `circle`, `rect`, `ellipse`, `line`, `polyline`, `polygon`, `g`, `linearGradient`, `radialGradient`, `stop`, `defs`
+* **Allowed Attributes:** `viewBox`, `width`, `height`, `fill`, `stroke`, `stroke-width`, `d`, `cx`, `cy`, `r`, `x`, `y`, `rx`, `ry`, `x1`, `y1`, `x2`, `y2`, `points`, `transform`, `opacity`
+</constraints>
+
+<example>
+<description>""A red circle with a blue square inside""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <circle cx=""50"" cy=""50"" r=""40"" fill=""red""/>
+  <rect x=""30"" y=""30"" width=""40"" height=""40"" fill=""blue""/>
+</svg>
+```
+</example>
+
+
+Please ensure that the generated SVG code is well-formed, valid, and strictly adheres to these constraints. Focus on a clear and concise representation of the input description within the given limitations. Always give the complete SVG code with nothing omitted. Never use an ellipsis.
+
+<description>""magenta trapezoids layered on a transluscent silver sheet""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+","<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <rect x=""0"" y=""0"" width=""256"" height=""256"" fill=""url(#silverGradient)"" />
+  <defs>
+    <linearGradient id=""silverGradient"" x1=""0"" y1=""0"" x2=""0"" y2=""1"" gradientUnits=""userSpaceOnUse"">
+      <stop offset=""0"" stop-color=""#C0C0C0"" />
+      <stop offset=""0.3"" stop-color=""#999999"" />
+      <stop offset=""1"" stop-color=""#808080"" />
+    </linearGradient>
+  </defs>
+  <polygon points=""50,100 100,0 150,100 100,150"" fill=""magenta"" />
+  <polygon points=""175,100 225,0 275,100 225,150"" fill=""magenta"" />
+</svg>","<svg viewBox=""0 0 256 256"" width=""256"" height=""256""><rect x=""0"" y=""0"" width=""256"" height=""256"" fill=""url(#silverGradient)""/><defs><linearGradient id=""silverGradient"" x1=""0"" y1=""0"" x2=""0"" y2=""1"" gradientUnits=""userSpaceOnUse""><stop offset=""0"" stop-color=""#C0C0C0""/><stop offset=""0.3"" stop-color=""#999999""/><stop offset=""1"" stop-color=""#808080""/></linearGradient></defs><polygon points=""50,100 100,0 150,100 100,150"" fill=""magenta""/><polygon points=""175,100 225,0 275,100 225,150"" fill=""magenta""/></svg>"
+10,a snowy plain,"Generate SVG code to visually represent the following text description, while respecting the given constraints.
+<constraints>
+* **Allowed Elements:** `svg`, `path`, `circle`, `rect`, `ellipse`, `line`, `polyline`, `polygon`, `g`, `linearGradient`, `radialGradient`, `stop`, `defs`
+* **Allowed Attributes:** `viewBox`, `width`, `height`, `fill`, `stroke`, `stroke-width`, `d`, `cx`, `cy`, `r`, `x`, `y`, `rx`, `ry`, `x1`, `y1`, `x2`, `y2`, `points`, `transform`, `opacity`
+</constraints>
+
+<example>
+<description>""A red circle with a blue square inside""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <circle cx=""50"" cy=""50"" r=""40"" fill=""red""/>
+  <rect x=""30"" y=""30"" width=""40"" height=""40"" fill=""blue""/>
+</svg>
+```
+</example>
+
+
+Please ensure that the generated SVG code is well-formed, valid, and strictly adheres to these constraints. Focus on a clear and concise representation of the input description within the given limitations. Always give the complete SVG code with nothing omitted. Never use an ellipsis.
+
+<description>""a snowy plain""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+","<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <defs>
+    <linearGradient id=""snow"" x1=""0"" y1=""0"" x2=""256"" y2=""256"">
+      <stop offset=""0"" stop-color=""#eee"" />
+      <stop offset=""100%"" stop-color=""#fff"" />
+    </linearGradient>
+  </defs>
+  <rect x=""0"" y=""0"" width=""256"" height=""256"" fill=""url(#snow)"" />
+</svg>","<svg viewBox=""0 0 256 256"" width=""256"" height=""256""><defs><linearGradient id=""snow"" x1=""0"" y1=""0"" x2=""256"" y2=""256""><stop offset=""0"" stop-color=""#eee""/><stop offset=""100%"" stop-color=""#fff""/></linearGradient></defs><rect x=""0"" y=""0"" width=""256"" height=""256"" fill=""url(#snow)""/></svg>"
+11,black and white checkered pants,"Generate SVG code to visually represent the following text description, while respecting the given constraints.
+<constraints>
+* **Allowed Elements:** `svg`, `path`, `circle`, `rect`, `ellipse`, `line`, `polyline`, `polygon`, `g`, `linearGradient`, `radialGradient`, `stop`, `defs`
+* **Allowed Attributes:** `viewBox`, `width`, `height`, `fill`, `stroke`, `stroke-width`, `d`, `cx`, `cy`, `r`, `x`, `y`, `rx`, `ry`, `x1`, `y1`, `x2`, `y2`, `points`, `transform`, `opacity`
+</constraints>
+
+<example>
+<description>""A red circle with a blue square inside""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <circle cx=""50"" cy=""50"" r=""40"" fill=""red""/>
+  <rect x=""30"" y=""30"" width=""40"" height=""40"" fill=""blue""/>
+</svg>
+```
+</example>
+
+
+Please ensure that the generated SVG code is well-formed, valid, and strictly adheres to these constraints. Focus on a clear and concise representation of the input description within the given limitations. Always give the complete SVG code with nothing omitted. Never use an ellipsis.
+
+<description>""black and white checkered pants""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+","<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <rect x=""0"" y=""0"" width=""256"" height=""256"" fill=""black"" />
+  </svg>","<svg viewBox=""0 0 256 256"" width=""256"" height=""256""><rect x=""0"" y=""0"" width=""256"" height=""256"" fill=""black""/></svg>"
+12,a starlit night over snow-covered peaks,"Generate SVG code to visually represent the following text description, while respecting the given constraints.
+<constraints>
+* **Allowed Elements:** `svg`, `path`, `circle`, `rect`, `ellipse`, `line`, `polyline`, `polygon`, `g`, `linearGradient`, `radialGradient`, `stop`, `defs`
+* **Allowed Attributes:** `viewBox`, `width`, `height`, `fill`, `stroke`, `stroke-width`, `d`, `cx`, `cy`, `r`, `x`, `y`, `rx`, `ry`, `x1`, `y1`, `x2`, `y2`, `points`, `transform`, `opacity`
+</constraints>
+
+<example>
+<description>""A red circle with a blue square inside""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <circle cx=""50"" cy=""50"" r=""40"" fill=""red""/>
+  <rect x=""30"" y=""30"" width=""40"" height=""40"" fill=""blue""/>
+</svg>
+```
+</example>
+
+
+Please ensure that the generated SVG code is well-formed, valid, and strictly adheres to these constraints. Focus on a clear and concise representation of the input description within the given limitations. Always give the complete SVG code with nothing omitted. Never use an ellipsis.
+
+<description>""a starlit night over snow-covered peaks""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+","<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+<!--Sky with Gradient -->
+<defs>
+  <linearGradient id=""skyGradient"" x1=""0"" y1=""0"" x2=""0"" y2=""100"">
+    <stop offset=""0%"" stop-color=""#003366"" />
+    <stop offset=""100%"" stop-color=""#6699cc"" /> 
+  </linearGradient>
+</defs>
+<rect width=""256"" height=""256"" fill=""url(#skyGradient)""/>
+<!--Snow-Covered Peaks -->
+<polygon points=""140,50 180,20 200,80 160,130"" fill=""#fff"" stroke=""#999"" stroke-width=""2""/> 
+<!--Stars -->
+<circle cy=""80"" cx=""40"" r=""3"" fill=""yellow"" />
+<circle cy=""120"" cx=""100"" r=""2"" fill=""yellow"" />
+<circle cy=""180"" cx=""160"" r=""4"" fill=""yellow"" />
+<circle cy=""80"" cx=""180"" r=""1"" fill=""yellow"" />
+
+
+
+</svg>","<svg viewBox=""0 0 256 256"" width=""256"" height=""256""><defs><linearGradient id=""skyGradient"" x1=""0"" y1=""0"" x2=""0"" y2=""100""><stop offset=""0%"" stop-color=""#003366""/><stop offset=""100%"" stop-color=""#6699cc""/></linearGradient></defs><rect width=""256"" height=""256"" fill=""url(#skyGradient)""/><polygon points=""140,50 180,20 200,80 160,130"" fill=""#fff"" stroke=""#999"" stroke-width=""2""/><circle cy=""80"" cx=""40"" r=""3"" fill=""yellow""/><circle cy=""120"" cx=""100"" r=""2"" fill=""yellow""/><circle cy=""180"" cx=""160"" r=""4"" fill=""yellow""/><circle cy=""80"" cx=""180"" r=""1"" fill=""yellow""/></svg>"
+13,khaki triangles and azure crescents,"Generate SVG code to visually represent the following text description, while respecting the given constraints.
+<constraints>
+* **Allowed Elements:** `svg`, `path`, `circle`, `rect`, `ellipse`, `line`, `polyline`, `polygon`, `g`, `linearGradient`, `radialGradient`, `stop`, `defs`
+* **Allowed Attributes:** `viewBox`, `width`, `height`, `fill`, `stroke`, `stroke-width`, `d`, `cx`, `cy`, `r`, `x`, `y`, `rx`, `ry`, `x1`, `y1`, `x2`, `y2`, `points`, `transform`, `opacity`
+</constraints>
+
+<example>
+<description>""A red circle with a blue square inside""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <circle cx=""50"" cy=""50"" r=""40"" fill=""red""/>
+  <rect x=""30"" y=""30"" width=""40"" height=""40"" fill=""blue""/>
+</svg>
+```
+</example>
+
+
+Please ensure that the generated SVG code is well-formed, valid, and strictly adheres to these constraints. Focus on a clear and concise representation of the input description within the given limitations. Always give the complete SVG code with nothing omitted. Never use an ellipsis.
+
+<description>""khaki triangles and azure crescents""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+","<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <polygon points=""50,100 100,200 150,100"" fill=""khaki"" /> 
+  <path d=""M50 150 A 50 50 0 1 1 150 150"" stroke=""azure"" stroke-width=""5"" />
+</svg>","<svg viewBox=""0 0 256 256"" width=""256"" height=""256""><polygon points=""50,100 100,200 150,100"" fill=""khaki""/><path d=""M50 150 A 50 50 0 1 1 150 150"" stroke=""azure"" stroke-width=""5""/></svg>"
+14,a maroon dodecahedron interwoven with teal threads,"Generate SVG code to visually represent the following text description, while respecting the given constraints.
+<constraints>
+* **Allowed Elements:** `svg`, `path`, `circle`, `rect`, `ellipse`, `line`, `polyline`, `polygon`, `g`, `linearGradient`, `radialGradient`, `stop`, `defs`
+* **Allowed Attributes:** `viewBox`, `width`, `height`, `fill`, `stroke`, `stroke-width`, `d`, `cx`, `cy`, `r`, `x`, `y`, `rx`, `ry`, `x1`, `y1`, `x2`, `y2`, `points`, `transform`, `opacity`
+</constraints>
+
+<example>
+<description>""A red circle with a blue square inside""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <circle cx=""50"" cy=""50"" r=""40"" fill=""red""/>
+  <rect x=""30"" y=""30"" width=""40"" height=""40"" fill=""blue""/>
+</svg>
+```
+</example>
+
+
+Please ensure that the generated SVG code is well-formed, valid, and strictly adheres to these constraints. Focus on a clear and concise representation of the input description within the given limitations. Always give the complete SVG code with nothing omitted. Never use an ellipsis.
+
+<description>""a maroon dodecahedron interwoven with teal threads""</description>
+```svg
+<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+","<svg viewBox=""0 0 256 256"" width=""256"" height=""256"">
+  <defs>
+    <polygon id=""dodecahedron"" points=""128,0 128,128 128,256 128-128 128-256 128,128 128,0 64,0 64,128 64,256 64,-128 64,-256 ... ""/>
+    </defs>
+  <g transform=""translate(128, 128)"">
+    <use href=""#dodecahedron"" fill=""maroon""/>
+    </g>
+  <polygon .../>
+</svg>","<svg width=""256"" height=""256"" viewBox=""0 0 256 256""><circle cx=""50"" cy=""50"" r=""40"" fill=""red"" /></svg>"
