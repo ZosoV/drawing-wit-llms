@@ -58,6 +58,7 @@ class llm(limiter):
             "model": model,
             "messages": None,
         }
+        self.messages = []
 
     @retry(
         retry=retry_if_exception_type(
@@ -82,12 +83,10 @@ class llm(limiter):
             print("Rate limit reached")
             return None
 
-        messages = [
-            {"role": "user", "content": input_prompt},
-        ]
+        self.messages.append({"role": "user", "content": input_prompt})
 
         self.input_config |= {
-            "messages": messages,
+            "messages": self.messages,
             **kwargs,
         }
 

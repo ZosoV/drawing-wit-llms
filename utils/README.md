@@ -22,7 +22,14 @@ response = model("What can you do?")
 
 # rate limits are handled with a exponential backoff for 3 retry attempts after which it starts returning `None`
 ```
+```python
+# modify messages
+model.messages.append({"role" : "system", "content" : "You are an helpful assistant"})
 
+# using the instance as a callable appends to messages with role "user"
+model("what can you do?")
+# adds {"role" : "user", "content" : "what can you do?"}
+```
 
 ## `vis.py`
 

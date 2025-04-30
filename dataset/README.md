@@ -15,3 +15,5 @@
 
     - randomly sample 60 svg codes from the dataset
     - convert 2 PIL and visualize
+
+-  `synthetic_description_creation.ipynb` : uniformly sample 5 descriptions and generate 5 synthetic samples each iteration
