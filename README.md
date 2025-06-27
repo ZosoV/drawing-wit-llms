@@ -1,4 +1,4 @@
-# drawing-wit-llms
+# Drawing-wit-llms
 
 This GitHub project presents a solution to the <strong>Kaggle competition</strong> <a href="https://www.kaggle.com/competitions/drawing-with-llms"> "Drawing with LLMs"</a>. The challenge involves generating SVG images from text descriptions using AI models.
 
