@@ -1,7 +1,5 @@
 # drawing-wit-llms
 
-This Github project contains a solution to the kaggle competition https://www.kaggle.com/competitions/drawing-with-llms. This challenge is about using an AI model to generate svg images, based on a provided text description of the desired image.
-
 This GitHub project presents a solution to the <strong>Kaggle competition</strong> <a href="https://www.kaggle.com/competitions/drawing-with-llms"> "Drawing with LLMs"</a>. The challenge involves generating SVG images from text descriptions using AI models.
 
 ## Model Validation
@@ -33,12 +31,14 @@ This project explores various multimodal AI models. The validation process is co
 
 ## Second approach - Using Stable Diffusion 
 <ul>
-<li> In this method, we used a Stable Diffusion model to generate an image from a text description.
+In this method, we used a Stable Diffusion model to generate an image from a text description.
 The resulting image (left) was then converted to SVG format (right) using a custom image processing algorithm based on K-means clustering, which also included SVG size reduction.
 However, despite these optimizations, the final SVG files still exceeded the 10,000-byte size limit required by the competition.
+<li> <strong>Description: </strong> A lighthouse overlooking the ocean
 <br>
 <img src="assets/output_dwllm2.jpg" alt="">
 <br>
+<li> <strong>Description: </strong> A purple forest at dusk
 <br>
 <img src="assets/output_dwllm3.png" alt="">
 </ul>
